@@ -1,0 +1,19 @@
+{
+  "composition_id": "tech-news-16x9",
+  "template_id": "tech-news-16x9",
+  "video_id": "smoke-tech-news",
+  "video_title": "OpenAI Releases GPT-5 with 10x Performance",
+  "video_subtitle": "Major breakthrough in AI announced",
+  "tags": [
+    "AI",
+    "LLM",
+    "GPT"
+  ],
+  "source": "Hacker News",
+  "output": {
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "duration_frames": 30
+  }
+}

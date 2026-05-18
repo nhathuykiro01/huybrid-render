@@ -1,0 +1,19 @@
+{
+  "composition_id": "tech-news-16x9",
+  "template_id": "tech-news-16x9",
+  "video_id": "smoke-test",
+  "video_title": "OpenAI Releases GPT-5 - Major AI Milestone",
+  "video_subtitle": "10x performance gains reported",
+  "tags": [
+    "AI",
+    "LLM",
+    "GPT"
+  ],
+  "source": "Hacker News",
+  "output": {
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "duration_frames": 30
+  }
+}

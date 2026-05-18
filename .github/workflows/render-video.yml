@@ -1,0 +1,180 @@
+name: Render Video
+
+on:
+  workflow_dispatch:
+    inputs:
+      job_id:
+        description: 'Render job ID'
+        required: true
+      callback_url:
+        description: 'URL to POST render result back'
+        required: false
+        default: ''
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: 'npm'
+          cache-dependency-path: .openclaw/video/jobhub-remotion/package-lock.json
+
+      - name: Install system dependencies
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq ffmpeg libnss3 libatk-bridge2.0-0 libxcomposite1 \
+            libxdamage1 libxrandr2 libgbm1 libpango-1.0-0 libcairo2 \
+            libasound2t64 || sudo apt-get install -y -qq libasound2
+
+      - name: Install Node dependencies
+        working-directory: .openclaw/video/jobhub-remotion
+        run: npm ci --prefer-offline
+
+      - name: Prepare render job from repo
+        run: |
+          JOB_DIR=".render-jobs/${{ github.event.inputs.job_id }}"
+          mkdir -p /tmp/render-job
+          
+          if [ ! -f "$JOB_DIR/spec.json" ]; then
+            echo "ERROR: $JOB_DIR/spec.json not found in repo!"
+            ls -la "$JOB_DIR/" 2>/dev/null || echo "Directory does not exist"
+            exit 1
+          fi
+          
+          cp "$JOB_DIR/spec.json" /tmp/render-job/spec.json
+          echo "Spec copied: $(wc -c < /tmp/render-job/spec.json) bytes"
+          cat /tmp/render-job/spec.json | python3 -c "import sys,json; d=json.load(sys.stdin); print(f'composition={d.get(\"composition_id\",\"?\")} video_id={d.get(\"video_id\",\"?\")}')"
+          
+          # Copy voice next to the render script so localizeAssets() can find it
+          # as a relative local path (not starting with / or http)
+          REMOTION_DIR=".openclaw/video/jobhub-remotion"
+          if [ -f "$JOB_DIR/voice.mp3" ]; then
+            cp "$JOB_DIR/voice.mp3" "$REMOTION_DIR/render-voice.mp3"
+            echo "Voice copied to $REMOTION_DIR/render-voice.mp3: $(wc -c < "$REMOTION_DIR/render-voice.mp3") bytes"
+            # Use relative path from jobhub-remotion working dir
+            python3 -c "
+          import json
+          with open('/tmp/render-job/spec.json') as f:
+              spec = json.load(f)
+          spec['voice_audio_path'] = 'render-voice.mp3'
+          spec['_voice_audio_path'] = 'render-voice.mp3'
+          with open('/tmp/render-job/spec.json', 'w') as f:
+              json.dump(spec, f, ensure_ascii=False, indent=2)
+          print('Patched voice_audio_path = render-voice.mp3 (relative)')
+          "
+          else
+            echo "No voice audio for this job"
+          fi
+
+          LOGO_FILE=$(find "$JOB_DIR" -maxdepth 1 -type f -name 'logo.*' | head -n 1 || true)
+          if [ -n "$LOGO_FILE" ]; then
+            LOGO_BASENAME=$(basename "$LOGO_FILE")
+            LOGO_TARGET="render-${LOGO_BASENAME}"
+            cp "$LOGO_FILE" "$REMOTION_DIR/$LOGO_TARGET"
+            echo "Logo copied to $REMOTION_DIR/$LOGO_TARGET: $(wc -c < "$REMOTION_DIR/$LOGO_TARGET") bytes"
+            python3 -c "
+          import json
+          with open('/tmp/render-job/spec.json') as f:
+              spec = json.load(f)
+          brand = spec.get('brand') if isinstance(spec.get('brand'), dict) else {}
+          brand['logo_url'] = '$LOGO_TARGET'
+          brand['logo_asset'] = '$LOGO_TARGET'
+          spec['brand'] = brand
+          spec['brand_logo_asset'] = '$LOGO_TARGET'
+          spec['brand_logo_url'] = '$LOGO_TARGET'
+          with open('/tmp/render-job/spec.json', 'w') as f:
+              json.dump(spec, f, ensure_ascii=False, indent=2)
+          print('Patched brand logo = $LOGO_TARGET (relative)')
+          "
+          else
+            echo "No logo asset for this job"
+          fi
+
+          BGM_FILE=$(find "$JOB_DIR" -maxdepth 1 -type f -name 'bgm.*' | head -n 1 || true)
+          if [ -n "$BGM_FILE" ]; then
+            BGM_BASENAME=$(basename "$BGM_FILE")
+            BGM_TARGET="render-${BGM_BASENAME}"
+            cp "$BGM_FILE" "$REMOTION_DIR/$BGM_TARGET"
+            echo "BGM copied to $REMOTION_DIR/$BGM_TARGET: $(wc -c < "$REMOTION_DIR/$BGM_TARGET") bytes"
+            python3 -c "
+          import json
+          with open('/tmp/render-job/spec.json') as f:
+              spec = json.load(f)
+          spec['bgm_asset'] = '$BGM_TARGET'
+          with open('/tmp/render-job/spec.json', 'w') as f:
+              json.dump(spec, f, ensure_ascii=False, indent=2)
+          print('Patched bgm_asset = $BGM_TARGET (relative)')
+          "
+          else
+            echo "No BGM asset for this job"
+          fi
+
+      - name: Render video
+        working-directory: .openclaw/video/jobhub-remotion
+        env:
+          PUPPETEER_SKIP_DOWNLOAD: 'false'
+        run: |
+          node jobhub-render.js \
+            --spec /tmp/render-job/spec.json \
+            --out /tmp/render-job/output.mp4 \
+            2>&1 | tee /tmp/render-job/render.log
+          
+          echo "---"
+          ls -lh /tmp/render-job/output.mp4 || echo "ERROR: output.mp4 not found!"
+
+      - name: Upload to R2
+        if: success()
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+          AWS_DEFAULT_REGION: auto
+        run: |
+          R2_ENDPOINT="${{ secrets.R2_ENDPOINT }}"
+          R2_BUCKET="${{ secrets.R2_BUCKET }}"
+          JOB_ID="${{ github.event.inputs.job_id }}"
+          R2_KEY="rendered-specs/${JOB_ID}.mp4"
+          
+          if [ -f /tmp/render-job/output.mp4 ]; then
+            FILE_SIZE=$(stat -c%s /tmp/render-job/output.mp4)
+            echo "Uploading $R2_KEY ($FILE_SIZE bytes) to R2..."
+            aws s3 cp /tmp/render-job/output.mp4 \
+              "s3://${R2_BUCKET}/${R2_KEY}" \
+              --endpoint-url "$R2_ENDPOINT" \
+              --content-type "video/mp4" \
+              --no-progress
+            echo "R2_URL=${R2_ENDPOINT}/${R2_BUCKET}/${R2_KEY}" >> "$GITHUB_ENV"
+            echo "✅ Uploaded to R2: ${R2_KEY}"
+          else
+            echo "⚠️ output.mp4 not found, skipping R2 upload"
+          fi
+
+      - name: Upload rendered video
+        uses: actions/upload-artifact@v4
+        with:
+          name: rendered-${{ github.event.inputs.job_id }}
+          path: /tmp/render-job/output.mp4
+          retention-days: 3
+
+      - name: Upload render log
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: render-log-${{ github.event.inputs.job_id }}
+          path: /tmp/render-job/render.log
+          retention-days: 3
+
+      - name: Callback (notify completion)
+        if: inputs.callback_url != ''
+        run: |
+          FILE_SIZE=$(stat -c%s /tmp/render-job/output.mp4 2>/dev/null || echo 0)
+          curl -fsSL -X POST "${{ github.event.inputs.callback_url }}" \
+            -H "Content-Type: application/json" \
+            -d "{\"job_id\": \"${{ github.event.inputs.job_id }}\", \"status\": \"done\", \"artifact_size\": $FILE_SIZE, \"run_id\": ${{ github.run_id }}}" \
+            || echo "Callback failed (non-fatal)"
