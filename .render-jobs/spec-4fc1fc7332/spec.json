@@ -1,0 +1,91 @@
+{
+  "composition_id": "short-breaking-news",
+  "template_id": "short-breaking-news",
+  "style_id": "short-breaking-news",
+  "video_id": "spec-4fc1fc7332",
+  "video_title": "TRUMP HOÃN ĐÁNH IRAN: CAN THIỆP VÙNG VỊNH",
+  "voice_audio_path": "D:\\Huybrid\\data\\watchdog\\voice\\spec-4fc1fc7332.wav",
+  "bgm_asset": "render-bgm.mp3",
+  "playback_speed": 1.25,
+  "category": "News",
+  "scenes": [
+    {
+      "type": "title",
+      "title": "MỸ SUÝT ĐÁNH IRAN",
+      "subtitle": "Trump tuyên bố hoãn tấn công sau áp lực vùng Vịnh",
+      "tags": [
+        "Trump",
+        "Iran",
+        "geopolitics"
+      ],
+      "source_badge": "HUYBRID NEWS",
+      "image_keywords": [
+        "Trump Iran military strike",
+        "Persian Gulf",
+        "White House crisis"
+      ],
+      "voice_segment": "Ông Trump vừa tuyên bố hoãn cuộc tấn công đã được lên kế hoạch vào Iran. Sự can thiệp từ các nước vùng Vịnh đã khiến Nhà Trắng phải đạp phanh vào phút chót.",
+      "duration_hint": 6,
+      "start_frame": 0,
+      "duration_frames": 228
+    },
+    {
+      "type": "insight",
+      "headline": "LÝ DO THỰC SỰ: SỨC ÉP NGOẠI GIAO",
+      "points": [
+        "Các nước vùng Vịnh như UAE và Ả Rập Xê Út đã vận động hậu trường để ngăn xung đột lan rộng.",
+        "Một cuộc không kích có thể châm ngòi cho chiến tranh toàn diện, đe dọa nguồn cung dầu toàn cầu.",
+        "Động thái này diễn ra vào tháng 5/2026, khi căng thẳng leo thang sau các vụ tập kích tàu thương mại."
+      ],
+      "image_keywords": [
+        "Persian Gulf diplomacy",
+        "Saudi Arabia UAE leaders",
+        "oil tanker military escort"
+      ],
+      "source_note": "Al Jazeera, BBC World, 18/5/2026",
+      "voice_segment": "Đây không phải là từ bỏ, mà là hoãn chiến thuật. Các nước vùng Vịnh đã gây sức ép ngoại giao khủng khiếp, bởi một cuộc chiến Mỹ-Iran sẽ thiêu rụi nền kinh tế của họ. Và Trump, dù hay đe dọa, buộc phải lắng nghe khi đồng minh dầu mỏ lên tiếng.",
+      "duration_hint": 12,
+      "start_frame": 228,
+      "duration_frames": 354
+    },
+    {
+      "type": "insight",
+      "headline": "AI LỢI, AI HẠI TỪ QUYẾT ĐỊNH NÀY?",
+      "points": [
+        "Iran tránh được đòn tập kích bất ngờ, có thêm thời gian củng cố phòng thủ.",
+        "Trump giữ thể diện khi 'cho cơ hội đàm phán', nhưng lộ rõ điểm yếu trước sức ép bên ngoài.",
+        "Nguy cơ chiến tranh vẫn rình rập nếu các cuộc đàm phán hạt nhân thất bại lần nữa."
+      ],
+      "image_keywords": [
+        "Iran nuclear site",
+        "Trump negotiation table",
+        "US aircraft carrier Persian Gulf"
+      ],
+      "source_note": "Currents API, Al Jazeera",
+      "voice_segment": "Ai thực sự thắng? Iran hiểu rằng cú lùi bước này cho thấy Trump không muốn một cuộc chiến mới trước bầu cử. Nhưng đừng mừng vội: lệnh tạm dừng chứ không phải hủy bỏ. Chỉ cần một sự cố nhỏ ở eo biển Hormuz, mọi thứ có thể bùng nổ bất cứ lúc nào.",
+      "duration_hint": 10,
+      "start_frame": 582,
+      "duration_frames": 357
+    },
+    {
+      "type": "outro",
+      "cta": "Bạn ngh sao: Trump có thực sự lùi bước?",
+      "channel": "Huybrid",
+      "tagline": "HUYBRID NEWS",
+      "voice_segment": "Theo bạn, đây là nhân nhượng hay tính toán chiến lược? Bình luận ngay bên dưới, Huybrid News sẽ phân tích thêm.",
+      "duration_hint": 4,
+      "start_frame": 939,
+      "duration_frames": 162,
+      "image_url": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDA2Nzh8MHwxfHNlYXJjaHwxfHx0ZWNobm9sb2d5JTIwY29tbXVuaXR5fGVufDB8MHx8fDE3NzkxNTE4NTB8MA&ixlib=rb-4.1.0&q=80&w=1080"
+    }
+  ],
+  "brand": {},
+  "product": {},
+  "product_image_url": "",
+  "output": {
+    "fps": 30,
+    "width": 1080,
+    "height": 1920,
+    "duration_frames": 1104
+  }
+}
