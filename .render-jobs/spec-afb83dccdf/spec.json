@@ -1,0 +1,88 @@
+{
+  "composition_id": "short-breaking-news",
+  "template_id": "short-breaking-news",
+  "style_id": "short-breaking-news",
+  "video_id": "spec-afb83dccdf",
+  "video_title": "Mỹ thất bại ở Greenland?",
+  "voice_audio_path": "D:\\Huybrid\\data\\watchdog\\voice\\spec-afb83dccdf.wav",
+  "bgm_asset": "render-bgm.mp3",
+  "playback_speed": 1.25,
+  "category": "News",
+  "scenes": [
+    {
+      "type": "title",
+      "title": "Mỹ bị 'bật bãi'",
+      "subtitle": "Đặc phái viên Trump lỡ kế hoạch làm 'bạn' Greenland",
+      "tags": [
+        "Trump",
+        "Greenland",
+        "Geopolitics"
+      ],
+      "source_badge": "HUYBRID NEWS",
+      "image_keywords": [
+        "Trump envoy Greenland",
+        "US flag Arctic"
+      ],
+      "voice_segment": "Ông Trump cử đặc phái viên Jeff Landry sang Greenland để 'kết bạn', nhưng chuyến đi này đang khiến người dân nơi đây nổi giận. Liệu Mỹ có đang tự tay phá hỏng tham vọng kiểm soát Bắc Cực?",
+      "duration_hint": 6,
+      "start_frame": 0,
+      "duration_frames": 276
+    },
+    {
+      "type": "insight",
+      "headline": "Phản ứng dữ dội",
+      "points": [
+        "Người Greenland - vùng tự trị thuộc Đan Mạch - cho rằng Mỹ đang coi họ như 'con tin' địa chính trị.",
+        "Phái viên Jeff Landry vấp phải sự thù địch công khai, không phải bàn đàm thân thiện."
+      ],
+      "image_keywords": [
+        "Greenland protest US",
+        "angry local crowd Arctic"
+      ],
+      "source_note": "BBC News",
+      "voice_segment": "Không phải cuộc đón tiếp nồng hậu. Người Greenland tố cáo Mỵ đang xem họ như quân bài mặc cả. Jeff Landry, đặc phái viên của Trump, thay vì làm bạn thì lại châm ngòi cho làn sóng chống đối ngay từ phút đầu.",
+      "duration_hint": 8,
+      "start_frame": 276,
+      "duration_frames": 304,
+      "image_url": "https://images.unsplash.com/photo-1537266846258-5e3cba4be5f4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDA2Nzh8MHwxfHNlYXJjaHwxfHxHcmVlbmxhbmQlMjBwcm90ZXN0JTIwVVMlMjBhbmdyeSUyMGxvY2FsJTIwY3Jvd2QlMjBBcmN0aWN8ZW58MHwwfHx8MTc3OTI2MjMxNnww&ixlib=rb-4.1.0&q=80&w=1080"
+    },
+    {
+      "type": "insight",
+      "headline": "Tham vọng thất bại",
+      "points": [
+        "Washington muốn mua Greenland từ Đan Mạch từ năm 2019, bị từ chối thẳng thừng.",
+        "Chiến dịch 'gây ảnh hưởng' hiện tại chỉ làm lộ rõ sự vụng về ngoại giao của Trump."
+      ],
+      "image_keywords": [
+        "Trump rejected Greenland purchase",
+        "failed diplomacy Arctic"
+      ],
+      "source_note": "BBC & Al Jazeera",
+      "voice_segment": "Mỹ từng muốn mua Greenland hồi 2019, bị Đan Mạch và người dân ở đây cười vào mặt. Giờ thay đổi chiến thuật sang 'kết bạn' nhưng cũng thất bại thảm hại. Vùng đất băng giá này không dễ bị mua chuộc, và Trump đang học một bài học đắt giá.",
+      "duration_hint": 10,
+      "start_frame": 580,
+      "duration_frames": 347,
+      "image_url": "https://images.unsplash.com/photo-1576664947367-913bf6bba126?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDA2Nzh8MHwxfHNlYXJjaHwxfHxUcnVtcCUyMHJlamVjdGVkJTIwR3JlZW5sYW5kJTIwcHVyY2hhc2UlMjBmYWlsZWQlMjBkaXBsb21hY3klMjBBcmN0aWN8ZW58MHwwfHx8MTc3OTI2MjMxNnww&ixlib=rb-4.1.0&q=80&w=1080"
+    },
+    {
+      "type": "outro",
+      "cta": "Theo dõi HUYBRID để cập nhật tin nóng",
+      "channel": "Huybrid",
+      "tagline": "HUYBRID NEWS",
+      "voice_segment": "Liệu Greenland có trở thành 'Việt Nam mới' của nước Mỹ? Hãy để lại bình luận nhé.",
+      "duration_hint": 4,
+      "start_frame": 927,
+      "duration_frames": 119,
+      "image_url": "https://images.unsplash.com/photo-1529209076408-5a115ec9f1c6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDA2Nzh8MHwxfHNlYXJjaHwxfHx0ZWNobm9sb2d5JTIwY29tbXVuaXR5fGVufDB8MHx8fDE3NzkyNDgwOTB8MA&ixlib=rb-4.1.0&q=80&w=1080"
+    }
+  ],
+  "brand": {},
+  "product": {},
+  "product_image_url": "",
+  "output": {
+    "fps": 30,
+    "width": 1080,
+    "height": 1920,
+    "duration_frames": 1049
+  }
+}
