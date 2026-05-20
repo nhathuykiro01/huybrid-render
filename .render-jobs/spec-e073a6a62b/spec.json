@@ -1,0 +1,92 @@
+{
+  "composition_id": "short-breaking-news",
+  "template_id": "short-breaking-news",
+  "style_id": "short-breaking-news",
+  "video_id": "spec-e073a6a62b",
+  "video_title": "Nga Tấn Công Dữ Dội, Ukraine Trả Đũa Lớn?",
+  "voice_audio_path": "D:\\Huybrid\\data\\watchdog\\voice\\spec-e073a6a62b.wav",
+  "bgm_asset": "render-bgm.mp3",
+  "playback_speed": 1.25,
+  "category": "News",
+  "scenes": [
+    {
+      "type": "title",
+      "title": "NGA TẤN CÔNG DÀI NHẤT?",
+      "subtitle": "Ukraine hứng chịu đòn không kích dữ dội, ít nhất 6 người chết",
+      "tags": [
+        "Ukraine",
+        "Russia",
+        "Conflict"
+      ],
+      "source_badge": "HUYBRID NEWS",
+      "image_keywords": [
+        "explosion in city",
+        "ukraine flag",
+        "night sky"
+      ],
+      "voice_segment": "Nga vừa thực hiện một trong những đợt tấn công kéo dài và ác liệt nhất nhắm vào Ukraine. Tên lửa và drone đã cày nát nhiều thành phố, khiến ít nhất sáu người thiệt mạng và gây ra sự hoảng loạn trên diện rộng.",
+      "duration_hint": 7,
+      "start_frame": 0,
+      "duration_frames": 311,
+      "image_url": "https://images.unsplash.com/photo-1647273426587-31512cdf2e50?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDA2Nzh8MHwxfHNlYXJjaHwxfHxleHBsb3Npb24lMjBpbiUyMGNpdHklMjB1a3JhaW5lJTIwZmxhZyUyMG5pZ2h0JTIwc2t5fGVufDB8MHx8fDE3NzkyOTEyOTJ8MA&ixlib=rb-4.1.0&q=80&w=1080"
+    },
+    {
+      "type": "insight",
+      "headline": "ĐÒN TRẢ ĐŨA BẰNG DRONE",
+      "points": [
+        "Ukraine đáp trả bằng 286 drone",
+        "Nga tuyên bố đã đánh chặn toàn bộ",
+        "Cuộc chiến trên không ngày càng khốc liệt"
+      ],
+      "image_keywords": [
+        "military drone swarm",
+        "air defense system",
+        "radar screen"
+      ],
+      "source_note": "Nguồn: Al Jazeera",
+      "voice_segment": "Ngay lập tức, Ukraine đã có câu trả lời đanh thép. Moscow tuyên bố đã đánh chặn và phá hủy tới 286 máy bay không người lái của Ukraine chỉ trong một đêm. Con số khổng lồ này cho thấy quy mô của các cuộc tấn công bằng drone đang leo thang đến mức chóng mặt, biến bầu trời thành một chiến trường thực sự.",
+      "duration_hint": 12,
+      "start_frame": 311,
+      "duration_frames": 452,
+      "image_url": "https://images.unsplash.com/photo-1753040050114-ae924195a578?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDA2Nzh8MHwxfHNlYXJjaHwxfHxtaWxpdGFyeSUyMGRyb25lJTIwc3dhcm0lMjBhaXIlMjBkZWZlbnNlJTIwc3lzdGVtJTIwcmFkYXIlMjBzY3JlZW58ZW58MHwwfHx8MTc3OTI5MTI5Mnww&ixlib=rb-4.1.0&q=80&w=1080"
+    },
+    {
+      "type": "insight",
+      "headline": "CHIẾN TRANH TIÊU HAO",
+      "points": [
+        "Cả hai bên đều chịu tổn thất lớn",
+        "Mục tiêu là làm kiệt quệ đối phương"
+      ],
+      "image_keywords": [
+        "destroyed military equipment",
+        "soldiers in trench"
+      ],
+      "source_note": "Phân tích: Huybrid",
+      "voice_segment": "Đây không còn là những trận đánh đơn lẻ, mà là một cuộc chiến tranh tiêu hao tàn khốc. Cả Nga và Ukraine đều đang tung ra những nguồn lực khổng lồ, chấp nhận tổn thất để làm kiệt quệ và bào mòn ý chí chiến đấu của đối phương.",
+      "duration_hint": 9,
+      "start_frame": 763,
+      "duration_frames": 337,
+      "image_url": "https://images.unsplash.com/photo-1717509793361-51eba95845c0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDA2Nzh8MHwxfHNlYXJjaHwxfHxkZXN0cm95ZWQlMjBtaWxpdGFyeSUyMGVxdWlwbWVudCUyMHNvbGRpZXJzJTIwaW4lMjB0cmVuY2h8ZW58MHwwfHx8MTc3OTI5MTI5M3ww&ixlib=rb-4.1.0&q=80&w=1080"
+    },
+    {
+      "type": "outro",
+      "cta": "Liệu ai sẽ gục ngã trước?",
+      "channel": "Huybrid",
+      "tagline": "HUYBRID NEWS",
+      "voice_segment": "Trong cuộc đua sức bền chết người này, bên nào sẽ cạn kiệt nguồn lực trước? Và cái giá cuối cùng cho cuộc chiến này là gì?",
+      "duration_hint": 5,
+      "start_frame": 1100,
+      "duration_frames": 182,
+      "image_url": "https://images.unsplash.com/photo-1529209076408-5a115ec9f1c6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDA2Nzh8MHwxfHNlYXJjaHwxfHx0ZWNobm9sb2d5JTIwY29tbXVuaXR5fGVufDB8MHx8fDE3NzkyNDgwOTB8MA&ixlib=rb-4.1.0&q=80&w=1080"
+    }
+  ],
+  "brand": {},
+  "product": {},
+  "product_image_url": "",
+  "output": {
+    "fps": 30,
+    "width": 1080,
+    "height": 1920,
+    "duration_frames": 1284
+  }
+}
