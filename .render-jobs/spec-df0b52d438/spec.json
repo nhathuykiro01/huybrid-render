@@ -1,0 +1,93 @@
+{
+  "composition_id": "short-insight-9x16",
+  "template_id": "short-insight-9x16",
+  "style_id": "short-cinema-buzz",
+  "video_id": "spec-df0b52d438",
+  "video_title": "Totoro: Thần Chết Hay Vị Thần Bảo Hộ?",
+  "voice_audio_path": "D:\\Huybrid\\data\\watchdog\\voice\\spec-df0b52d438.wav",
+  "bgm_asset": "render-bgm.mp3",
+  "playback_speed": 1.25,
+  "category": "Movies",
+  "scenes": [
+    {
+      "type": "title",
+      "title": "SỰ THẬT VỀ TOTORO",
+      "subtitle": "Biểu tượng tuổi thơ hay sứ giả của thần chết?",
+      "tags": [
+        "Studio Ghibli",
+        "Anime",
+        "Fan Theory"
+      ],
+      "source_badge": "HUYBRID CINEMA",
+      "image_keywords": [
+        "My Neighbor Totoro poster",
+        "dark forest",
+        "cinematic anime"
+      ],
+      "voice_segment": "Bạn có chắc mình thực sự hiểu về Totoro? Bộ phim hoạt hình kinh điển của Ghibli có thể không trong sáng như bạn nghĩ. Một giả thuyết nổi tiếng cho rằng Totoro thực chất là Thần Chết.",
+      "duration_hint": 7,
+      "start_frame": 0,
+      "duration_frames": 286,
+      "image_url": "https://images.unsplash.com/photo-1769847780887-dc6f4380621e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDA2Nzh8MHwxfHNlYXJjaHwxfHxNeSUyME5laWdoYm9yJTIwVG90b3JvJTIwcG9zdGVyJTIwZGFyayUyMGZvcmVzdCUyMGNpbmVtYXRpYyUyMGFuaW1lfGVufDB8MHx8fDE3NzkyNjM2OTh8MA&ixlib=rb-4.1.0&q=80&w=1080"
+    },
+    {
+      "type": "insight",
+      "headline": "Giả Thuyết Thần Chết",
+      "points": [
+        "Totoro chỉ xuất hiện khi sắp có người chết.",
+        "Mei và Satsuki có thể đã chết đuối.",
+        "Chiếc xe buýt mèo là phương tiện sang thế giới bên kia."
+      ],
+      "image_keywords": [
+        "Totoro smiling",
+        "Satsuki and Mei running",
+        "Catbus night scene"
+      ],
+      "source_note": "Dựa trên giả thuyết fan và vụ án Sayama",
+      "voice_segment": "Giả thuyết này bắt nguồn từ việc Totoro là \"Troll\" - tức Thần Chết trong thần thoại. Trong phim, hai chị em chỉ nhìn thấy Totoro khi họ cận kề bi kịch gia đình. Đáng sợ hơn, ở cuối phim, Satsuki và Mei không có bóng, dấy lên nghi vấn họ đã chết và xe buýt mèo chính là chuyến xe tới thế giới bên kia.",
+      "duration_hint": 14,
+      "start_frame": 286,
+      "duration_frames": 472,
+      "image_url": "https://images.unsplash.com/photo-1650201967438-346031457fb4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDA2Nzh8MHwxfHNlYXJjaHwxfHxUb3Rvcm8lMjBzbWlsaW5nJTIwU2F0c3VraSUyMGFuZCUyME1laSUyMHJ1bm5pbmclMjBDYXRidXMlMjBuaWdodCUyMHNjZW5lfGVufDB8MHx8fDE3NzkyNjM2OTl8MA&ixlib=rb-4.1.0&q=80&w=1080"
+    },
+    {
+      "type": "insight",
+      "headline": "Phản Hồi Từ Ghibli",
+      "points": [
+        "Studio Ghibli đã chính thức phủ nhận.",
+        "Totoro là vị thần của khu rừng.",
+        "Không có bóng vì đó là quyết định nghệ thuật."
+      ],
+      "image_keywords": [
+        "Hayao Miyazaki sketch",
+        "Totoro forest spirit",
+        "Satsuki Mei happy"
+      ],
+      "source_note": "Studio Ghibli Official Statement",
+      "voice_segment": "Tuy nhiên, Studio Ghibli đã lên tiếng bác bỏ hoàn toàn giả thuyết này. Họ khẳng định Totoro là một vị thần rừng tốt bụng, và việc các nhân vật không có bóng ở cảnh cuối chỉ đơn giản là do đội ngũ sản xuất thấy không cần thiết, nhằm tiết kiệm thời gian và chi phí.",
+      "duration_hint": 11,
+      "start_frame": 758,
+      "duration_frames": 413
+    },
+    {
+      "type": "outro",
+      "cta": "Bạn tin vào giả thuyết nào?",
+      "channel": "Huybrid",
+      "tagline": "HUYBRID CINEMA",
+      "voice_segment": "Vậy cuối cùng, Totoro là một câu chuyện cổ tích ấm áp hay một bi kịch ẩn giấu? Hãy cho chúng tôi biết suy nghĩ của bạn.",
+      "duration_hint": 5,
+      "start_frame": 1171,
+      "duration_frames": 187,
+      "image_url": "https://images.unsplash.com/photo-1529209076408-5a115ec9f1c6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDA2Nzh8MHwxfHNlYXJjaHwxfHx0ZWNobm9sb2d5JTIwY29tbXVuaXR5fGVufDB8MHx8fDE3NzkyNDgwOTB8MA&ixlib=rb-4.1.0&q=80&w=1080"
+    }
+  ],
+  "brand": {},
+  "product": {},
+  "product_image_url": "",
+  "output": {
+    "fps": 30,
+    "width": 1080,
+    "height": 1920,
+    "duration_frames": 1360
+  }
+}
