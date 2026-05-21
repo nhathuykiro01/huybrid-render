@@ -1,0 +1,92 @@
+{
+  "composition_id": "short-breaking-news",
+  "template_id": "short-breaking-news",
+  "style_id": "short-breaking-news",
+  "video_id": "spec-00d0566750",
+  "video_title": "Iran ngày 82: Tối hậu thư Trump",
+  "voice_audio_path": "D:\\Huybrid\\data\\watchdog\\voice\\spec-00d0566750.wav",
+  "bgm_asset": "render-bgm.mp3",
+  "playback_speed": 1.25,
+  "category": "News",
+  "scenes": [
+    {
+      "type": "title",
+      "title": "Iran ngày 82: Chiến tranh lan rộng?",
+      "subtitle": "Tehran cảnh báo mặt trận mới, Trump ra hạn cuối",
+      "tags": [
+        "Iran",
+        "US",
+        "Trump",
+        "MiddleEastConflict"
+      ],
+      "source_badge": "HUYBRID NEWS",
+      "image_keywords": [
+        "Iran war",
+        "Trump deadline",
+        "Middle East conflict"
+      ],
+      "voice_segment": "Cuộc chiến Iran bước sang ngày thứ 82 căng thẳng chưa từng có. Tehran cảnh báo sẽ mở 'mặt trận mới' nếu Trump không nhượng bộ.",
+      "duration_hint": 6,
+      "start_frame": 0,
+      "duration_frames": 189
+    },
+    {
+      "type": "insight",
+      "headline": "Tối hậu thư 2-3 ngày",
+      "points": [
+        "Trump đặt thời hạn 2-3 ngày cho thỏa thuận",
+        "Iran: 'Chúng tôi đã học hỏi từ những cuộc đụng độ trước'",
+        "Nguy cơ xung đột mở rộng ra toàn khu vực"
+      ],
+      "image_keywords": [
+        "Trump deadline Iran",
+        "Iran military threat",
+        "new fronts war"
+      ],
+      "source_note": "Al Jazeera, ngày 20/5/2026",
+      "voice_segment": "Tổng thống Trump đưa ra tối hậu thư 2-3 ngày để Iran đạt thỏa thuận. Tehran đáp trả rằng họ đã học hỏi từ các cuộc chiến trước và có thể kích hoạt những chiến tuyến chưa từng có. Cảnh báo 'mặt trận mới' này đang làm rung chuyển khu vực.",
+      "duration_hint": 12,
+      "start_frame": 189,
+      "duration_frames": 354,
+      "image_url": "https://images.unsplash.com/photo-1772299399273-d71c7fce5da0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDA2Nzh8MHwxfHNlYXJjaHwxfHxUcnVtcCUyMGRlYWRsaW5lJTIwSXJhbiUyMElyYW4lMjBtaWxpdGFyeSUyMHRocmVhdCUyMG5ldyUyMGZyb250cyUyMHdhcnxlbnwwfDB8fHwxNzc5MzI2ODg1fDA&ixlib=rb-4.1.0&q=80&w=1080"
+    },
+    {
+      "type": "insight",
+      "headline": "Iran không lùi bước",
+      "points": [
+        "Ngày 82: Iran khẳng định sẵn sàng đối đầu",
+        "Áp lực quân sự và ngoại giao leo thang"
+      ],
+      "image_keywords": [
+        "Iran resistance",
+        "war escalation Middle East",
+        "Tehran warning"
+      ],
+      "source_note": "BBC World, Al Jazeera",
+      "voice_segment": "Trong 82 ngày giao tranh, Iran cho thấy họ không dễ bị khuất phục. Lời đe dọa về các mặt trận mới không chỉ là lời nói suông – nó có thể là kế hoạch tấn công vào đồng minh của Mỹ. Liệu Trump có thực sự dám châm ngòi cho một cuộc chiến toàn diện?",
+      "duration_hint": 10,
+      "start_frame": 543,
+      "duration_frames": 368
+    },
+    {
+      "type": "outro",
+      "cta": "Theo dõi Huybrid để cập nhật.",
+      "channel": "Huybrid",
+      "tagline": "HUYBRID NEWS",
+      "voice_segment": "Theo bạn, Iran có mở mặt trận mới hay không? Để lại bình luận nhé.",
+      "duration_hint": 4,
+      "start_frame": 911,
+      "duration_frames": 99,
+      "image_url": "https://images.unsplash.com/photo-1529209076408-5a115ec9f1c6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDA2Nzh8MHwxfHNlYXJjaHwxfHx0ZWNobm9sb2d5JTIwY29tbXVuaXR5fGVufDB8MHx8fDE3NzkyNDgwOTB8MA&ixlib=rb-4.1.0&q=80&w=1080"
+    }
+  ],
+  "brand": {},
+  "product": {},
+  "product_image_url": "",
+  "output": {
+    "fps": 30,
+    "width": 1080,
+    "height": 1920,
+    "duration_frames": 1011
+  }
+}
