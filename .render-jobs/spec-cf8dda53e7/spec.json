@@ -1,0 +1,97 @@
+{
+  "composition_id": "short-insight-9x16",
+  "template_id": "short-insight-9x16",
+  "style_id": "short-insight-9x16",
+  "video_id": "spec-cf8dda53e7",
+  "video_title": "Rối loạn từ tính - Kẻ thù của xe điện",
+  "voice_audio_path": "D:\\Huybrid\\data\\watchdog\\voice\\spec-cf8dda53e7.wav",
+  "bgm_asset": "render-bgm.mp3",
+  "playback_speed": 1.25,
+  "category": "Science",
+  "scenes": [
+    {
+      "type": "title",
+      "title": "Hỗn loạn từ tính",
+      "subtitle": "Kẻ phá hoại năng lượng trong mọi động cơ điện",
+      "tags": [
+        "AI",
+        "magnetic chaos",
+        "EV efficiency"
+      ],
+      "source_badge": "HUYBRID SCIENCE",
+      "image_keywords": [
+        "electric motor",
+        "magnetic field",
+        "chaos",
+        "AI visualization"
+      ],
+      "voice_segment": "Bạn có biết, gần 30% năng lượng hao phí trong xe điện đến từ thứ vô hình nhưng cực kỳ hỗn loạn? Đó là sự hỗn loạn từ tính – và AI vừa lột trần nó.",
+      "duration_hint": 6,
+      "start_frame": 0,
+      "duration_frames": 223,
+      "image_url": "https://images.unsplash.com/photo-1779231482110-39efee041a1e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDA2Nzh8MHwxfHNlYXJjaHwxfHxlbGVjdHJpYyUyMG1vdG9yJTIwbWFnbmV0aWMlMjBmaWVsZCUyMGNoYW9zJTIwQUklMjB2aXN1YWxpemF0aW9ufGVufDB8MHx8fDE3NzkzMzEwOTN8MA&ixlib=rb-4.1.0&q=80&w=1080"
+    },
+    {
+      "type": "insight",
+      "headline": "Cơn bão từ vô hình",
+      "points": [
+        "Mỗi động cơ điện mất 15-20% năng lượng vì nhiễu từ trường",
+        "AI từ Nhật Bản mô phỏng chính xác từng xoáy từ tính",
+        "Phát hiện này giúp thiết kế động cơ hiệu suất tới 95%"
+      ],
+      "image_keywords": [
+        "magnetic turbulence",
+        "electric motor cross section",
+        "AI heatmap",
+        "energy loss"
+      ],
+      "source_note": "ScienceDaily, nghiên cứu Nhật Bản 2026",
+      "voice_segment": "Các nhà khoa học Nhật đã huấn luyện AI để nhìn xuyên qua cấu trúc từ trường. Và thứ họ thấy là những xoáy hỗn loạn – như bão thu nhỏ – đang làm lãng phí hàng chục phần trăm điện năng. Nghĩa là mỗi lần sạc xe, bạn đang đốt tiền vào sự hỗn loạn vô hình đó.",
+      "duration_hint": 12,
+      "start_frame": 223,
+      "duration_frames": 388,
+      "image_url": "https://images.unsplash.com/photo-1778469841603-e0e622042ffb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDA2Nzh8MHwxfHNlYXJjaHwxfHxtYWduZXRpYyUyMHR1cmJ1bGVuY2UlMjBlbGVjdHJpYyUyMG1vdG9yJTIwY3Jvc3MlMjBzZWN0aW9uJTIwQUklMjBoZWF0bWFwJTIwZW5lcmd5JTIwbG9zc3xlbnwwfDB8fHwxNzc5MzMxMDk0fDA&ixlib=rb-4.1.0&q=80&w=1080"
+    },
+    {
+      "type": "insight",
+      "headline": "Cuộc cách mạng cho xe điện",
+      "points": [
+        "Tesla, VinFast có thể tăng thêm 80km mỗi lần sạc",
+        "AI sẽ tối ưu từ trường trong 1 ngày thay vì 1 năm",
+        "Nhà sản xuất sẽ tiết kiệm hàng tỷ đô nhờ ít hao phí hơn"
+      ],
+      "image_keywords": [
+        "electric vehicle motor",
+        "AI optimization",
+        "magnetic flux lines",
+        "energy efficiency"
+      ],
+      "source_note": "ScienceDaily",
+      "voice_segment": "Hãy tưởng tượng: chỉ cần loại bỏ sự hỗn loạn từ tính, xe điện có thể chạy thêm 80 cây số mỗi lần sạc mà không cần thêm pin. AI không chỉ phát hiện vấn đề – nó còn cho chúng ta bản đồ để xây dựng động cơ gần như hoàn hảo. Ngành công nghiệp ô tô sẽ thay đổi mãi mãi.",
+      "duration_hint": 10,
+      "start_frame": 611,
+      "duration_frames": 403,
+      "image_url": "https://images.unsplash.com/photo-1692719094491-2746e82a8595?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDA2Nzh8MHwxfHNlYXJjaHwxfHxlbGVjdHJpYyUyMHZlaGljbGUlMjBtb3RvciUyMEFJJTIwb3B0aW1pemF0aW9uJTIwbWFnbmV0aWMlMjBmbHV4JTIwbGluZXMlMjBlbmVyZ3klMjBlZmZpY2llbmN5fGVufDB8MHx8fDE3NzkzMzEwOTV8MA&ixlib=rb-4.1.0&q=80&w=1080"
+    },
+    {
+      "type": "outro",
+      "cta": "Bạn có tin AI sẽ cứu xe điện?",
+      "channel": "Huybrid",
+      "tagline": "HUYBRID SCIENCE",
+      "voice_segment": "Vậy câu hỏi là: liệu hãng xe nào sẽ bắt kịp cú bứt phá này trước? Hãy nghĩ về nó ở bình luận nhé.",
+      "duration_hint": 4,
+      "start_frame": 1014,
+      "duration_frames": 148,
+      "image_url": "https://images.unsplash.com/photo-1529209076408-5a115ec9f1c6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDA2Nzh8MHwxfHNlYXJjaHwxfHx0ZWNobm9sb2d5JTIwY29tbXVuaXR5fGVufDB8MHx8fDE3NzkyNDgwOTB8MA&ixlib=rb-4.1.0&q=80&w=1080"
+    }
+  ],
+  "brand": {},
+  "product": {},
+  "product_image_url": "",
+  "output": {
+    "fps": 30,
+    "width": 1080,
+    "height": 1920,
+    "duration_frames": 1164
+  }
+}
