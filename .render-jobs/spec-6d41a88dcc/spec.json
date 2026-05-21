@@ -1,0 +1,93 @@
+{
+  "composition_id": "short-breaking-news",
+  "template_id": "short-breaking-news",
+  "style_id": "short-breaking-news",
+  "video_id": "spec-6d41a88dcc",
+  "video_title": "Thoả thuận 3.7 tỷ bảng Anh - Vịnh: Ai lợi?",
+  "voice_audio_path": "D:\\Huybrid\\data\\watchdog\\voice\\spec-6d41a88dcc.wav",
+  "bgm_asset": "render-bgm.mp3",
+  "playback_speed": 1.25,
+  "category": "News",
+  "scenes": [
+    {
+      "type": "title",
+      "title": "3.7 tỷ bảng: Thắng hay bẫy?",
+      "subtitle": "Thoả thuận Anh - Vịnh gấp đôi dự tính",
+      "tags": [
+        "UK",
+        "Gulf",
+        "Trade Deal"
+      ],
+      "source_badge": "HUYBRID NEWS",
+      "image_keywords": [
+        "UK flag",
+        "Gulf countries map",
+        "money stacks"
+      ],
+      "voice_segment": "Anh vừa 'hạ cánh' an toàn với thoả thuận thương mại 3.7 tỷ bảng cùng 6 quốc gia vùng Vịnh. Con số này gấp đôi ước tính ban đầu, nhưng liệu có phải là chiến thắng thực sự cho nước Anh?",
+      "duration_hint": 6,
+      "start_frame": 0,
+      "duration_frames": 310
+    },
+    {
+      "type": "insight",
+      "headline": "Sự thật đằng sau con số",
+      "points": [
+        "Thoả thuận trị giá 3.7 tỷ bảng, ban đầu chỉ dự kiến 1.85 tỷ",
+        "Thủ tướng Keir Starmer gọi là 'chiến thắng lớn' cho doanh nghiệp",
+        "6 quốc gia gồm Saudi, UAE, Qatar, Oman, Bahrain, Kuwait"
+      ],
+      "image_keywords": [
+        "Keir Starmer speaking",
+        "trade agreement signing",
+        "British pound notes"
+      ],
+      "source_note": "Nguồn: The Guardian, 20/05/2026",
+      "voice_segment": "Starmer tự hào tuyên bố đây là 'chiến thắng lớn'. Nhưng hãy nhìn kỹ: 3.7 tỷ bảng chỉ bằng 0.1% GDP của Anh. Trong khi đó, các nước vùng Vịnh đang tìm cách đa dạng hoá khỏi dầu mỏ. Ai thực sự cần ai hơn?",
+      "duration_hint": 12,
+      "start_frame": 310,
+      "duration_frames": 342,
+      "image_url": "https://images.unsplash.com/photo-1607166602071-847b7d110781?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDA2Nzh8MHwxfHNlYXJjaHwxfHxLZWlyJTIwU3Rhcm1lciUyMHNwZWFraW5nJTIwdHJhZGUlMjBhZ3JlZW1lbnQlMjBzaWduaW5nJTIwQnJpdGlzaCUyMHBvdW5kJTIwbm90ZXN8ZW58MHwwfHx8MTc3OTMzNTE3NXww&ixlib=rb-4.1.0&q=80&w=1080"
+    },
+    {
+      "type": "insight",
+      "headline": "Cú đánh PR hay bước ngoặt?",
+      "points": [
+        "Thoả thuận giúp Starmer ghi điểm trước bầu cử",
+        "Doanh nghiệp Anh vẫn chưa thấy cam kết cụ thể",
+        "Gulf states mua ảnh hưởng bằng tiền dầu"
+      ],
+      "image_keywords": [
+        "political debate stage",
+        "oil barrels and money",
+        "British factories"
+      ],
+      "source_note": "Phân tích từ BBC World & Al Jazeera",
+      "voice_segment": "Đừng vội mừng. Các nước vùng Vịnh không ngốc. Họ bỏ ra 3.7 tỷ bảng để mua quan hệ đặc biệt với Anh – một cường quốc đang suy yếu. Còn Starmer thì có chiến thắng truyền thông ngay trước thềm bầu cử. Giao dịch lời – lời, hay lừa – lừa?",
+      "duration_hint": 10,
+      "start_frame": 652,
+      "duration_frames": 395,
+      "image_url": "https://images.unsplash.com/photo-1661444479422-16fe778d61b1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDA2Nzh8MHwxfHNlYXJjaHwxfHxwb2xpdGljYWwlMjBkZWJhdGUlMjBzdGFnZSUyMG9pbCUyMGJhcnJlbHMlMjBhbmQlMjBtb25leSUyMEJyaXRpc2glMjBmYWN0b3JpZXN8ZW58MHwwfHx8MTc3OTMzNTE3Nnww&ixlib=rb-4.1.0&q=80&w=1080"
+    },
+    {
+      "type": "outro",
+      "cta": "Theo dõi Huybrid để biết sự thật",
+      "channel": "Huybrid",
+      "tagline": "HUYBRID NEWS",
+      "voice_segment": "Bạn ngh sao? Anh đang thắng thật hay chỉ bị dùng làm bàn đạp? Để lại bình luận nhé.",
+      "duration_hint": 4,
+      "start_frame": 1047,
+      "duration_frames": 140,
+      "image_url": "https://images.unsplash.com/photo-1529209076408-5a115ec9f1c6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDA2Nzh8MHwxfHNlYXJjaHwxfHx0ZWNobm9sb2d5JTIwY29tbXVuaXR5fGVufDB8MHx8fDE3NzkyNDgwOTB8MA&ixlib=rb-4.1.0&q=80&w=1080"
+    }
+  ],
+  "brand": {},
+  "product": {},
+  "product_image_url": "",
+  "output": {
+    "fps": 30,
+    "width": 1080,
+    "height": 1920,
+    "duration_frames": 1190
+  }
+}
