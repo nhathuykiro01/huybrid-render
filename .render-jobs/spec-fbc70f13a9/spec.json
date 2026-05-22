@@ -1,0 +1,94 @@
+{
+  "composition_id": "short-breaking-news",
+  "template_id": "short-breaking-news",
+  "style_id": "short-breaking-news",
+  "video_id": "spec-fbc70f13a9",
+  "video_title": "Ai đứng sau vụ bom xe ở Damascus?",
+  "voice_audio_path": "D:\\Huybrid\\data\\watchdog\\voice\\spec-fbc70f13a9.wav",
+  "bgm_asset": "render-bgm.mp3",
+  "playback_speed": 1.25,
+  "category": "News",
+  "scenes": [
+    {
+      "type": "title",
+      "title": "Bom xe rúng động Damascus",
+      "subtitle": "Nghi là tấn công có chủ đích",
+      "tags": [
+        "Syria",
+        "Bom xe",
+        "Trung Đông"
+      ],
+      "source_badge": "HUYBRID NEWS",
+      "image_keywords": [
+        "Damascus explosion",
+        "car bomb smoke",
+        "Syrian capital"
+      ],
+      "voice_segment": "Một vụ nổ lớn vừa rung chuyển thủ đô Damascus của Syria. Nghi phạm dùng bom xe nhắm vào trung tâm quản lý vũ khí - liệu có phải đòn cảnh cáo mới?",
+      "duration_hint": 6,
+      "start_frame": 0,
+      "duration_frames": 218
+    },
+    {
+      "type": "insight",
+      "headline": "Mục tiêu quân sự",
+      "points": [
+        "Trung tâm quản lý vũ khí bị tấn công",
+        "Chưa rõ thương vong nhưng khói đen bốc cao",
+        "Đánh dấu leo thang bạo lực giữa lúc Syria đang khủng hoảng"
+      ],
+      "image_keywords": [
+        "military building damage",
+        "black smoke plume",
+        "Damascus street",
+        "explosion aftermath"
+      ],
+      "source_note": "Al Jazeera",
+      "voice_segment": "Vụ nổ xảy ra bên ngoài trung tâm quản lý vũ khí của chính phủ Syria. Khói đen bốc lên nghi ngút – dấu hiệu của một vụ tấn công có chủ đích. Trong khi Damascus đang chìm trong khủng hoảng, liệu đây có phải mở đầu cho làn sóng bạo lực mới?",
+      "duration_hint": 12,
+      "start_frame": 218,
+      "duration_frames": 357
+    },
+    {
+      "type": "insight",
+      "headline": "Kẻ tình nghi",
+      "points": [
+        "Chưa tổ chức nào nhận trách nhiệm",
+        "Damascus từng là mục tiêu của phiến quân và IS",
+        "Suy yếu của chính quyền Assad tạo cơ hội"
+      ],
+      "image_keywords": [
+        "suspected terrorists",
+        "Syrian conflict aftermath",
+        "car bomb debris",
+        "security forces"
+      ],
+      "source_note": "BBC World",
+      "voice_segment": "Hiện chưa rõ thủ phạm, nhưng lịch sử cho thấy các vụ đánh bom xe ở Damascus thường do phiến quân hoặc tổ chức thánh chiến gây ra. Chính quyền Assad đang suy yếu – mảnh đất màu mỡ để bạo lực bùng phát trở lại.",
+      "duration_hint": 10,
+      "start_frame": 575,
+      "duration_frames": 314,
+      "image_url": "https://images.unsplash.com/photo-1693838475684-4b547bf77cf5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDA2Nzh8MHwxfHNlYXJjaHwxfHxzdXNwZWN0ZWQlMjB0ZXJyb3Jpc3RzJTIwU3lyaWFuJTIwY29uZmxpY3QlMjBhZnRlcm1hdGglMjBjYXIlMjBib21iJTIwZGVicmlzJTIwc2VjdXJpdHklMjBmb3JjZXN8ZW58MHwwfHx8MTc3OTM0NTEwMXww&ixlib=rb-4.1.0&q=80&w=1080"
+    },
+    {
+      "type": "outro",
+      "cta": "Theo dõi Huybrid để cập nhật tin nóng",
+      "channel": "Huybrid",
+      "tagline": "HUYBRID NEWS",
+      "voice_segment": "Bạn nghĩ ai đứng sau vụ bom xe này? Để lại bình luận nhé.",
+      "duration_hint": 4,
+      "start_frame": 889,
+      "duration_frames": 86,
+      "image_url": "https://images.unsplash.com/photo-1529209076408-5a115ec9f1c6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDA2Nzh8MHwxfHNlYXJjaHwxfHx0ZWNobm9sb2d5JTIwY29tbXVuaXR5fGVufDB8MHx8fDE3NzkzNjg0MDF8MA&ixlib=rb-4.1.0&q=80&w=1080"
+    }
+  ],
+  "brand": {},
+  "product": {},
+  "product_image_url": "",
+  "output": {
+    "fps": 30,
+    "width": 1080,
+    "height": 1920,
+    "duration_frames": 977
+  }
+}
