@@ -1,0 +1,93 @@
+{
+  "composition_id": "short-breaking-news",
+  "template_id": "short-breaking-news",
+  "style_id": "short-breaking-news",
+  "video_id": "spec-ad50297ef9",
+  "video_title": "Israel Bắt Cóc Tàu Cứu Trợ Gaza: Sự Thật Đằng Sau!",
+  "voice_audio_path": "D:\\Huybrid\\data\\watchdog\\voice\\spec-ad50297ef9.wav",
+  "bgm_asset": "render-bgm.mp3",
+  "playback_speed": 1.25,
+  "category": "News",
+  "scenes": [
+    {
+      "type": "title",
+      "title": "Bắt Cóc Tàu Gaza: Ai Sai?",
+      "subtitle": "Activists tố cáo Israel tra tấn trên biển quốc tế!",
+      "tags": [
+        "Gaza",
+        "Israel",
+        "Nhân Quyền"
+      ],
+      "source_badge": "HUYBRID NEWS",
+      "image_keywords": [
+        "Gaza flotilla",
+        "activists protest",
+        "human rights"
+      ],
+      "voice_segment": "Một vụ việc gây sốc vừa xảy ra: các nhà hoạt động Úc trên tàu cứu trợ Gaza tố cáo bị Israel bắt giữ và tra tấn dã man trên hải phận quốc tế. Đây không chỉ là một vụ chặn bắt thông thường, mà là một hành động có thể vi phạm nghiêm trọng luật pháp quốc tế và nhân quyền.",
+      "duration_hint": 8,
+      "start_frame": 0,
+      "duration_frames": 376,
+      "image_url": "https://images.unsplash.com/photo-1739879353789-41554220f9c4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDA2Nzh8MHwxfHNlYXJjaHwxfHxHYXphJTIwZmxvdGlsbGElMjBhY3RpdmlzdHMlMjBwcm90ZXN0JTIwaHVtYW4lMjByaWdodHN8ZW58MHwwfHx8MTc3OTc5ODM0OHww&ixlib=rb-4.1.0&q=80&w=1080"
+    },
+    {
+      "type": "insight",
+      "headline": "Lạm Dụng Trên Biển Quốc Tế?",
+      "points": [
+        "Tàu cứu trợ bị chặn bắt trên hải phận quốc tế, không phải lãnh hải Israel.",
+        "Các nhà hoạt động tố cáo bị tấn công và tra tấn trong thời gian bị giam giữ.",
+        "Sự việc làm dấy lên lo ngại về việc Israel coi thường luật pháp quốc tế."
+      ],
+      "image_keywords": [
+        "Gaza blockade",
+        "international waters",
+        "torture allegations"
+      ],
+      "source_note": "Al Jazeera",
+      "voice_segment": "Theo Al Jazeera, tàu cứu trợ chở hàng viện trợ nhân đạo đã bị chặn bắt khi đang hoạt động trên hải phận quốc tế. Điều này đặt ra câu hỏi lớn về quyền tài phán của Israel. Các nhà hoạt động Úc khẳng định họ đã bị lạm dụng thể chất và tinh thần, thậm chí bị tra tấn trong quá trình giam giữ. Đây là một cáo buộc cực kỳ nghiêm trọng cần được điều tra minh bạch.",
+      "duration_hint": 14,
+      "start_frame": 376,
+      "duration_frames": 502
+    },
+    {
+      "type": "insight",
+      "headline": "Hậu Quả Quốc Tế Nào?",
+      "points": [
+        "Vụ việc có thể làm căng thẳng thêm quan hệ ngoại giao giữa Israel và Úc.",
+        "Cộng đồng quốc tế kêu gọi điều tra độc lập và công bằng.",
+        "Liệu Israel có phải đối mặt với các lệnh trừng phạt hoặc lên án mạnh mẽ?"
+      ],
+      "image_keywords": [
+        "international law",
+        "diplomatic relations",
+        "humanitarian crisis"
+      ],
+      "source_note": "BBC World",
+      "voice_segment": "Vụ việc này không chỉ ảnh hưởng đến các cá nhân mà còn có thể gây ra sóng gió ngoại giao. Úc và các quốc gia khác chắc chắn sẽ yêu cầu lời giải thích từ Israel. Câu hỏi đặt ra là liệu cộng đồng quốc tế có đủ mạnh mẽ để buộc Israel chịu trách nhiệm cho những hành động bị cáo buộc này hay không. Đây là một phép thử cho công lý và nhân quyền toàn cầu.",
+      "duration_hint": 12,
+      "start_frame": 878,
+      "duration_frames": 491,
+      "image_url": "https://images.unsplash.com/photo-1668120084348-efc2ba0ad31d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDA2Nzh8MHwxfHNlYXJjaHwxfHxpbnRlcm5hdGlvbmFsJTIwbGF3JTIwZGlwbG9tYXRpYyUyMHJlbGF0aW9ucyUyMGh1bWFuaXRhcmlhbiUyMGNyaXNpc3xlbnwwfDB8fHwxNzc5Nzk4MzQ5fDA&ixlib=rb-4.1.0&q=80&w=1080"
+    },
+    {
+      "type": "outro",
+      "cta": "Sự thật sẽ được phơi bày?",
+      "channel": "Huybrid",
+      "tagline": "HUYBRID NEWS",
+      "voice_segment": "Liệu những cáo buộc này có được làm rõ và công lý có được thực thi? Hãy để lại bình luận của bạn về vụ việc gây tranh cãi này.",
+      "duration_hint": 6,
+      "start_frame": 1369,
+      "duration_frames": 176,
+      "image_url": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDA2Nzh8MHwxfHNlYXJjaHwxfHx0ZWNobm9sb2d5JTIwY29tbXVuaXR5fGVufDB8MHx8fDE3Nzk3MjMwOTZ8MA&ixlib=rb-4.1.0&q=80&w=1080"
+    }
+  ],
+  "brand": {},
+  "product": {},
+  "product_image_url": "",
+  "output": {
+    "fps": 30,
+    "width": 1080,
+    "height": 1920,
+    "duration_frames": 1548
+  }
+}
