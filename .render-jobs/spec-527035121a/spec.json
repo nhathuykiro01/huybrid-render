@@ -1,0 +1,112 @@
+{
+  "composition_id": "video-tech-grid",
+  "template_id": "video-tech-grid",
+  "style_id": "video-tech-grid",
+  "video_id": "spec-527035121a",
+  "video_title": "AI chạy thẳng trên trình duyệt: Tương lai hay thảm họa?",
+  "voice_audio_path": "D:\\Huybrid\\data\\watchdog\\voice\\spec-527035121a.wav",
+  "bgm_asset": "render-bgm.mp3",
+  "playback_speed": 1.25,
+  "scenes": [
+    {
+      "type": "title",
+      "title": "AI trong trình duyệt: Tương lai đã đến?",
+      "subtitle": "Liệu website của bạn có chịu nổi gánh nặng AI?",
+      "tags": [
+        "AI",
+        "WebDev",
+        "Performance"
+      ],
+      "source_badge": "HUYBRID TECH",
+      "voice_segment": "Trí tuệ nhân tạo đang bùng nổ, và giờ đây, nó không chỉ nằm trên máy chủ mà còn chạy thẳng trong trình duyệt của bạn. Nghe có vẻ tiện lợi, nhưng liệu bạn đã bao giờ tự hỏi điều này sẽ ảnh hưởng thế nào đến tốc độ tải trang và trải nghiệm người dùng? Một bài viết gần đây trên Dev.to đã vén màn sự thật, cho chúng ta thấy những con số đáng kinh ngạc về tác động của AI đến Core Web Vitals. Đây không chỉ là một xu hướng công nghệ, mà là một cuộc cách mạng có thể định hình lại cách chúng ta tương tác với web.",
+      "duration_hint": 8,
+      "start_frame": 0,
+      "duration_frames": 718,
+      "image_url": "https://images.unsplash.com/photo-1677442136019-21780ecad995?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDA2Nzh8MHwxfHNlYXJjaHwxfHxBSSUyMFdlYkRldiUyMFBlcmZvcm1hbmNlfGVufDB8MHx8fDE3Nzk3NTcyMDB8MA&ixlib=rb-4.1.0&q=80&w=1080"
+    },
+    {
+      "type": "insight",
+      "headline": "Hiệu suất website: Ác mộng hay cơ hội?",
+      "image_keywords": [
+        "browser performance",
+        "web vitals",
+        "loading speed"
+      ],
+      "points": [
+        "Chạy AI trong trình duyệt làm tăng đáng kể thời gian tải trang (LCP) và độ trễ tương tác (FID).",
+        "Các mô hình AI phức tạp có thể ngốn tài nguyên CPU và bộ nhớ, gây giật lag cho người dùng.",
+        "Bài viết trên Dev.to đã chỉ ra những con số cụ thể về sự suy giảm Core Web Vitals khi tích hợp AI.",
+        "Sentiment analysis và nhận dạng giọng nói là những ví dụ điển hình đang được đưa lên trình duyệt."
+      ],
+      "source_note": "Dev.to: I Ran AI Models Directly in the Browser and Measured What It Did to Core Web Vitals",
+      "voice_segment": "Khi AI được đưa vào trình duyệt, hiệu suất website trở thành một vấn đề nan giải. Các chỉ số Core Web Vitals, vốn là thước đo quan trọng cho trải nghiệm người dùng, có thể bị ảnh hưởng nghiêm trọng. Thời gian tải nội dung lớn nhất (LCP) và độ trễ tương tác đầu tiên (FID) đều có xu hướng tăng vọt, khiến người dùng phải chờ đợi lâu hơn và cảm thấy khó chịu. Điều này đặt ra câu hỏi lớn: liệu chúng ta có đang đánh đổi trải nghiệm người dùng để đổi lấy sự tiện lợi của AI trên trình duyệt? Hay có cách nào để tối ưu hóa mà không làm giảm hiệu suất?",
+      "duration_hint": 15,
+      "start_frame": 718,
+      "duration_frames": 773,
+      "image_url": "https://images.unsplash.com/photo-1517026575980-3e1e2dedeab4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDA2Nzh8MHwxfHNlYXJjaHwxfHxicm93c2VyJTIwcGVyZm9ybWFuY2UlMjB3ZWIlMjB2aXRhbHMlMjBsb2FkaW5nJTIwc3BlZWR8ZW58MHwwfHx8MTc3OTc1NzIwMXww&ixlib=rb-4.1.0&q=80&w=1080"
+    },
+    {
+      "type": "insight",
+      "headline": "Ai hưởng lợi, ai chịu thiệt?",
+      "image_keywords": [
+        "developer dilemma",
+        "user experience",
+        "AI benefits"
+      ],
+      "points": [
+        "Các nhà phát triển web có thể dễ dàng tích hợp AI mà không cần backend phức tạp.",
+        "Người dùng được trải nghiệm các tính năng AI tức thì, không cần gửi dữ liệu lên server.",
+        "Tuy nhiên, người dùng với thiết bị cấu hình thấp sẽ chịu thiệt thòi về hiệu suất.",
+        "Các công ty lớn như Google, Meta đang thúc đẩy xu hướng này với các thư viện như TensorFlow.js."
+      ],
+      "source_note": "Dev.to: I Ran AI Models Directly in the Browser and Measured What It Did to Core Web Vitals",
+      "voice_segment": "Vậy ai sẽ là người hưởng lợi và ai sẽ chịu thiệt khi AI chạy trực tiếp trên trình duyệt? Các nhà phát triển web chắc chắn sẽ có thêm công cụ mạnh mẽ để tạo ra những trải nghiệm độc đáo, giảm bớt gánh nặng cho backend. Người dùng cũng có thể tận hưởng các tính năng AI tức thì, riêng tư hơn vì dữ liệu không cần rời khỏi thiết bị. Nhưng mặt khác, những người dùng có thiết bị cũ hoặc kết nối internet chậm sẽ phải đối mặt với một trải nghiệm web tồi tệ hơn bao giờ hết. Đây là một cuộc chiến cân não giữa sự tiện lợi và khả năng tiếp cận, và chúng ta cần một giải pháp dung hòa.",
+      "duration_hint": 15,
+      "start_frame": 1491,
+      "duration_frames": 815,
+      "image_url": "https://images.unsplash.com/photo-1526378722484-bd91ca387e72?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDA2Nzh8MHwxfHNlYXJjaHwxfHxkZXZlbG9wZXIlMjBkaWxlbW1hJTIwdXNlciUyMGV4cGVyaWVuY2UlMjBBSSUyMGJlbmVmaXRzfGVufDB8MHx8fDE3Nzk3NTcyMDJ8MA&ixlib=rb-4.1.0&q=80&w=1080"
+    },
+    {
+      "type": "insight",
+      "headline": "Tương lai của Web: AI mọi nơi?",
+      "image_keywords": [
+        "future web",
+        "AI integration",
+        "web development trends"
+      ],
+      "points": [
+        "Xu hướng \"AI everywhere\" đang định hình lại cách chúng ta xây dựng và sử dụng web.",
+        "Việc tối ưu hóa mô hình AI cho trình duyệt là chìa khóa để đảm bảo hiệu suất.",
+        "Các công nghệ như WebAssembly và WebGPU sẽ đóng vai trò quan trọng trong việc tăng tốc AI.",
+        "Cần có sự cân bằng giữa tính năng AI và trải nghiệm người dùng để tránh \"phình to\" website."
+      ],
+      "source_note": "Dev.to: I Ran AI Models Directly in the Browser and Measured What It Did to Core Web Vitals",
+      "voice_segment": "Tương lai của web có lẽ sẽ là một thế giới mà AI hiện diện ở khắp mọi nơi, từ phân tích cảm xúc người dùng đến nhận diện giọng nói. Tuy nhiên, để đạt được điều đó mà không làm suy giảm trải nghiệm, việc tối ưu hóa các mô hình AI cho môi trường trình duyệt là cực kỳ quan trọng. Các công nghệ như WebAssembly và WebGPU hứa hẹn sẽ mang lại sức mạnh tính toán cần thiết. Nhưng cuối cùng, quyết định nằm ở các nhà phát triển: làm thế nào để tích hợp AI một cách thông minh, hiệu quả, mà không biến website của chúng ta thành những gánh nặng kỹ thuật số khổng lồ?",
+      "duration_hint": 15,
+      "start_frame": 2306,
+      "duration_frames": 788,
+      "image_url": "https://images.unsplash.com/photo-1694903089438-bf28d4697d9a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDA2Nzh8MHwxfHNlYXJjaHwxfHxmdXR1cmUlMjB3ZWIlMjBBSSUyMGludGVncmF0aW9uJTIwd2ViJTIwZGV2ZWxvcG1lbnQlMjB0cmVuZHN8ZW58MHwwfHx8MTc3OTc1NzIwM3ww&ixlib=rb-4.1.0&q=80&w=1080"
+    },
+    {
+      "type": "outro",
+      "cta": "Bạn nghĩ AI trong trình duyệt là bước tiến hay gánh nặng?",
+      "channel": "Huybrid Tech",
+      "tagline": "AI • Code • Innovation",
+      "voice_segment": "Việc chạy AI trực tiếp trong trình duyệt mở ra vô vàn khả năng mới, nhưng cũng đặt ra những thách thức lớn về hiệu suất và trải nghiệm người dùng. Chúng ta cần một cách tiếp cận cân bằng để khai thác sức mạnh của AI mà không làm tổn hại đến nền tảng web. Hãy cùng chia sẻ quan điểm của bạn về xu hướng này trong phần bình luận nhé!",
+      "duration_hint": 5,
+      "start_frame": 3094,
+      "duration_frames": 467,
+      "image_url": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDA2Nzh8MHwxfHNlYXJjaHwxfHx0ZWNobm9sb2d5JTIwY29tbXVuaXR5fGVufDB8MHx8fDE3Nzk3MjMwOTZ8MA&ixlib=rb-4.1.0&q=80&w=1080"
+    }
+  ],
+  "brand": {},
+  "industry": "",
+  "product": {},
+  "product_image_url": "",
+  "output": {
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "duration_frames": 3564
+  }
+}
