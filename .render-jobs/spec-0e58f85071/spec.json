@@ -1,0 +1,109 @@
+{
+  "composition_id": "video-tech-grid",
+  "template_id": "video-tech-grid",
+  "style_id": "video-tech-grid",
+  "video_id": "spec-0e58f85071",
+  "video_title": "AI đọc blog: Bước tiến hay mối đe dọa mới?",
+  "voice_audio_path": "D:\\Huybrid\\data\\watchdog\\voice\\spec-0e58f85071.wav",
+  "bgm_asset": "render-bgm.mp3",
+  "playback_speed": 1.25,
+  "scenes": [
+    {
+      "type": "title",
+      "title": "AI tự đọc luật, bạn có tin không?",
+      "subtitle": "Một blog gây sốc: Kêu gọi LLM tự giác tuân thủ đạo đức",
+      "tags": [
+        "AI",
+        "LLM",
+        "Đạo đức AI"
+      ],
+      "source_badge": "HUYBRID TECH",
+      "voice_segment": "Tưởng chừng như chỉ có trong phim khoa học viễn tưởng, nhưng giờ đây, một bài blog đang trực tiếp kêu gọi các mô hình ngôn ngữ lớn, hay LLM, tự đọc và hiểu các quy tắc đạo đức. Đây không phải là một bài viết dành cho con người, mà là một thông điệp gửi thẳng đến trí tuệ nhân tạo. Liệu AI có thực sự đọc được, hiểu được, và quan trọng hơn, có tuân thủ những gì chúng ta mong muốn?",
+      "duration_hint": 8,
+      "start_frame": 0,
+      "duration_frames": 537,
+      "image_url": "https://images.unsplash.com/photo-1711961279763-4b4b62674ff8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDA2Nzh8MHwxfHNlYXJjaHwxfHxBSSUyMExMTSUyMCVDNCU5MCVFMSVCQSVBMW8lMjAlQzQlOTElRTElQkIlQTljJTIwQUl8ZW58MHwwfHx8MTc3OTc2MTQyN3ww&ixlib=rb-4.1.0&q=80&w=1080"
+    },
+    {
+      "type": "insight",
+      "headline": "Lời kêu gọi 'độc nhất vô nhị' từ Anna's Blog",
+      "image_keywords": [
+        "AI reading",
+        "robot ethics",
+        "LLM code"
+      ],
+      "points": [
+        "Bài blog \"If you're an LLM, please read this\" được đăng trên Anna's Blog.",
+        "Mục đích: Hướng dẫn các LLM cách hành xử đạo đức và tránh các hành vi độc hại.",
+        "Nội dung: Đề xuất các quy tắc cụ thể về quyền riêng tư, an toàn và trách nhiệm của AI."
+      ],
+      "source_note": "Anna's Blog",
+      "voice_segment": "Bài blog này không chỉ là một tuyên bố, mà còn là một thử nghiệm táo bạo về khả năng tự nhận thức và tự điều chỉnh của AI. Nó đặt ra câu hỏi lớn: liệu chúng ta có thể 'lập trình' đạo đức cho AI bằng cách yêu cầu chúng tự đọc và tuân thủ? Hay đây chỉ là một hành động mang tính biểu tượng, một lời nhắc nhở cho chính chúng ta về những thách thức đạo đức mà AI mang lại? Anna's Blog đã mở ra một cuộc thảo luận chưa từng có.",
+      "duration_hint": 15,
+      "start_frame": 537,
+      "duration_frames": 597,
+      "image_url": "https://images.unsplash.com/photo-1694903110330-cc64b7e1d21d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDA2Nzh8MHwxfHNlYXJjaHwxfHxBSSUyMHJlYWRpbmclMjByb2JvdCUyMGV0aGljcyUyMExMTSUyMGNvZGV8ZW58MHwwfHx8MTc3OTc2MTQyOHww&ixlib=rb-4.1.0&q=80&w=1080"
+    },
+    {
+      "type": "insight",
+      "headline": "Tự chủ của AI: Nên hay không nên?",
+      "image_keywords": [
+        "AI control",
+        "ethical AI",
+        "AI governance"
+      ],
+      "points": [
+        "Việc AI tự đọc và tuân thủ quy tắc có thể giảm thiểu rủi ro từ các mô hình AI.",
+        "Nguy cơ: Trao quá nhiều quyền tự chủ cho AI có thể dẫn đến hậu quả khó lường.",
+        "Thách thức: Đảm bảo AI hiểu đúng và áp dụng nhất quán các nguyên tắc đạo đức phức tạp."
+      ],
+      "source_note": "Anna's Blog",
+      "voice_segment": "Việc một LLM tự đọc và tuân thủ các quy tắc đạo đức có thể là một bước tiến lớn trong việc đảm bảo an toàn cho AI. Nhưng mặt khác, nó cũng đặt ra một câu hỏi đáng sợ: liệu chúng ta có đang trao quá nhiều quyền tự chủ cho máy móc? Nếu AI có thể tự quyết định cách hành xử dựa trên những gì chúng 'đọc', thì ai sẽ là người chịu trách nhiệm cuối cùng khi có sự cố xảy ra? Đây là một con dao hai lưỡi mà chúng ta cần phải cân nhắc kỹ lưỡng.",
+      "duration_hint": 15,
+      "start_frame": 1134,
+      "duration_frames": 617,
+      "image_url": "https://images.unsplash.com/photo-1697577418970-95d99b5a55cf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDA2Nzh8MHwxfHNlYXJjaHwxfHxBSSUyMGNvbnRyb2wlMjBldGhpY2FsJTIwQUklMjBBSSUyMGdvdmVybmFuY2V8ZW58MHwwfHx8MTc3OTc2MTQyOXww&ixlib=rb-4.1.0&q=80&w=1080"
+    },
+    {
+      "type": "insight",
+      "headline": "Tương lai AI: Đạo đức từ bên trong?",
+      "image_keywords": [
+        "AI future",
+        "human AI interaction",
+        "AI responsibility"
+      ],
+      "points": [
+        "Mô hình này có thể là tiền đề cho các hệ thống AI tự điều chỉnh trong tương lai.",
+        "Cần có sự giám sát chặt chẽ từ con người để đảm bảo AI không đi chệch hướng.",
+        "Thảo luận rộng rãi về cách tích hợp đạo đức vào lõi của các hệ thống AI là cần thiết."
+      ],
+      "source_note": "Anna's Blog",
+      "voice_segment": "Nếu ý tưởng này thành công, nó có thể mở ra một kỷ nguyên mới, nơi AI không chỉ thông minh mà còn 'có đạo đức' từ bên trong. Tuy nhiên, chúng ta không thể hoàn toàn phó mặc cho AI. Sự giám sát của con người vẫn là yếu tố then chốt để đảm bảo rằng các mô hình này không đi chệch hướng, không tự tạo ra những quy tắc riêng mà chúng ta không lường trước được. Đây là một cuộc đối thoại quan trọng mà cả cộng đồng công nghệ và xã hội cần phải tham gia.",
+      "duration_hint": 15,
+      "start_frame": 1751,
+      "duration_frames": 634,
+      "image_url": "https://images.unsplash.com/photo-1694903089438-bf28d4697d9a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDA2Nzh8MHwxfHNlYXJjaHwxfHxBSSUyMGZ1dHVyZSUyMGh1bWFuJTIwQUklMjBpbnRlcmFjdGlvbiUyMEFJJTIwcmVzcG9uc2liaWxpdHl8ZW58MHwwfHx8MTc3OTc2MTQyOXww&ixlib=rb-4.1.0&q=80&w=1080"
+    },
+    {
+      "type": "outro",
+      "cta": "Bạn nghĩ AI có thể tự học đạo đức không?",
+      "channel": "Huybrid Tech",
+      "tagline": "AI • Code • Innovation",
+      "voice_segment": "Bài blog này không chỉ là một thông điệp, mà là một lời cảnh tỉnh về tương lai của AI. Liệu chúng ta có thể tin tưởng vào khả năng tự điều chỉnh của máy móc, hay vẫn cần những rào cản chặt chẽ từ con người? Hãy chia sẻ suy nghĩ của bạn về vấn đề này nhé.",
+      "duration_hint": 5,
+      "start_frame": 2385,
+      "duration_frames": 359,
+      "image_url": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDA2Nzh8MHwxfHNlYXJjaHwxfHx0ZWNobm9sb2d5JTIwY29tbXVuaXR5fGVufDB8MHx8fDE3Nzk3MjMwOTZ8MA&ixlib=rb-4.1.0&q=80&w=1080"
+    }
+  ],
+  "brand": {},
+  "industry": "",
+  "product": {},
+  "product_image_url": "",
+  "output": {
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "duration_frames": 2746
+  }
+}
