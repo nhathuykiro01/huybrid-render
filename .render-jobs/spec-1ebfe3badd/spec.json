@@ -1,0 +1,109 @@
+{
+  "composition_id": "video-tech-grid",
+  "template_id": "video-tech-grid",
+  "style_id": "video-tech-grid",
+  "video_id": "spec-1ebfe3badd",
+  "video_title": "VSCode bị hack: 3800 repo GitHub gặp nguy, bạn có trong số đó?",
+  "voice_audio_path": "D:\\Huybrid\\data\\watchdog\\voice\\spec-1ebfe3badd.wav",
+  "bgm_asset": "render-bgm.mp3",
+  "playback_speed": 1.25,
+  "scenes": [
+    {
+      "type": "title",
+      "title": "VSCode: Cánh cửa hậu cho hacker?",
+      "subtitle": "3800 kho GitHub bị xâm phạm, nguy cơ rình rập mọi nhà phát triển",
+      "tags": [
+        "VSCode",
+        "GitHub",
+        "Bảo mật"
+      ],
+      "source_badge": "HUYBRID TECH",
+      "voice_segment": "Tưởng chừng là công cụ đắc lực, nhưng VSCode vừa trở thành điểm yếu chết người trong một cuộc tấn công chuỗi cung ứng phần mềm quy mô lớn. Hàng ngàn dự án trên GitHub đã bị xâm phạm, dữ liệu nhạy cảm có thể đã rơi vào tay kẻ xấu. Điều đáng sợ là, bạn có thể là nạn nhân tiếp theo mà không hề hay biết. Đây không chỉ là một vụ hack thông thường, mà là một lời cảnh tỉnh nghiêm trọng về niềm tin của chúng ta vào các công cụ phát triển.",
+      "duration_hint": 8,
+      "start_frame": 0,
+      "duration_frames": 599,
+      "image_url": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDA2Nzh8MHwxfHNlYXJjaHwxfHxWU0NvZGUlMjBHaXRIdWIlMjBCJUUxJUJBJUEzbyUyMG0lRTElQkElQUR0fGVufDB8MHx8fDE3Nzk4ODMyNTV8MA&ixlib=rb-4.1.0&q=80&w=1080"
+    },
+    {
+      "type": "insight",
+      "headline": "Tiện ích mở rộng độc hại: Kẻ thù ẩn mình",
+      "image_keywords": [
+        "malicious extension",
+        "VSCode security",
+        "supply chain attack"
+      ],
+      "points": [
+        "Cuộc tấn công nhắm vào các nhà phát triển thông qua tiện ích mở rộng 'ThemePack' trên VSCode Marketplace.",
+        "Tiện ích này được thiết kế để đánh cắp thông tin đăng nhập GitHub và mã thông báo cá nhân (Personal Access Tokens).",
+        "Hơn 3.800 kho lưu trữ GitHub đã bị ảnh hưởng, bao gồm cả các dự án công khai và riêng tư."
+      ],
+      "source_note": "BleepingComputer.com",
+      "voice_segment": "Vấn đề nằm ở một tiện ích mở rộng có tên 'ThemePack' trên VSCode Marketplace, một nơi mà chúng ta thường tin tưởng. Kẻ tấn công đã khéo léo ngụy trang mã độc bên trong một gói chủ đề tưởng chừng vô hại. Khi người dùng cài đặt, tiện ích này sẽ âm thầm đánh cắp thông tin đăng nhập GitHub và các mã thông báo cá nhân, mở toang cánh cửa cho kẻ xấu truy cập vào kho lưu trữ của họ. Đây là một lời nhắc nhở đau đớn rằng ngay cả những công cụ chúng ta dùng hàng ngày cũng có thể trở thành vũ khí chống lại chúng ta.",
+      "duration_hint": 15,
+      "start_frame": 599,
+      "duration_frames": 702,
+      "image_url": "https://images.unsplash.com/photo-1556075798-4825dfaaf498?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDA2Nzh8MHwxfHNlYXJjaHwxfHxtYWxpY2lvdXMlMjBleHRlbnNpb24lMjBWU0NvZGUlMjBzZWN1cml0eSUyMHN1cHBseSUyMGNoYWluJTIwYXR0YWNrfGVufDB8MHx8fDE3Nzk4ODMyNTV8MA&ixlib=rb-4.1.0&q=80&w=1080"
+    },
+    {
+      "type": "insight",
+      "headline": "Hậu quả khôn lường: Mất dữ liệu, mất niềm tin",
+      "image_keywords": [
+        "data breach",
+        "github security",
+        "developer risk"
+      ],
+      "points": [
+        "Các kho lưu trữ bị xâm phạm có thể chứa mã nguồn độc quyền, khóa API, thông tin cấu hình nhạy cảm.",
+        "GitHub đã thu hồi tất cả mã thông báo bị đánh cắp và thông báo cho các chủ sở hữu kho lưu trữ bị ảnh hưởng.",
+        "Nguy cơ tái diễn cao nếu các nhà phát triển không thay đổi thói quen bảo mật."
+      ],
+      "source_note": "GitHub Security Advisory",
+      "voice_segment": "Hậu quả của vụ tấn công này là vô cùng nghiêm trọng. Không chỉ mã nguồn, mà các khóa API, thông tin cấu hình nhạy cảm, và thậm chí cả dữ liệu khách hàng có thể đã bị lộ. GitHub đã nhanh chóng hành động, thu hồi các mã thông báo bị đánh cắp và cảnh báo người dùng, nhưng thiệt hại tiềm ẩn vẫn còn đó. Điều này đặt ra câu hỏi lớn về trách nhiệm của các nền tảng và sự cảnh giác của chính chúng ta. Liệu chúng ta có đang quá dễ dãi khi cài đặt các tiện ích mở rộng không rõ nguồn gốc?",
+      "duration_hint": 15,
+      "start_frame": 1301,
+      "duration_frames": 664,
+      "image_url": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDA2Nzh8MHwxfHNlYXJjaHwxfHxkYXRhJTIwYnJlYWNoJTIwZ2l0aHViJTIwc2VjdXJpdHklMjBkZXZlbG9wZXIlMjByaXNrfGVufDB8MHx8fDE3Nzk4ODMyNTZ8MA&ixlib=rb-4.1.0&q=80&w=1080"
+    },
+    {
+      "type": "insight",
+      "headline": "Bài học đắt giá: Bảo mật từ gốc rễ",
+      "image_keywords": [
+        "cybersecurity best practices",
+        "software supply chain",
+        "developer tools"
+      ],
+      "points": [
+        "Kiểm tra kỹ nguồn gốc và đánh giá của tiện ích mở rộng trước khi cài đặt.",
+        "Sử dụng xác thực đa yếu tố (MFA) cho tất cả các tài khoản phát triển.",
+        "Thường xuyên kiểm tra nhật ký hoạt động và thu hồi mã thông báo không cần thiết."
+      ],
+      "source_note": "BleepingComputer.com",
+      "voice_segment": "Vụ việc này là một lời cảnh tỉnh đắt giá cho toàn bộ cộng đồng phát triển. Chúng ta không thể chỉ tin tưởng mù quáng vào các công cụ. Hãy luôn kiểm tra kỹ nguồn gốc, đánh giá và quyền hạn của bất kỳ tiện ích mở rộng nào trước khi cài đặt. Kích hoạt xác thực đa yếu tố cho mọi tài khoản là điều bắt buộc. Và quan trọng nhất, hãy coi trọng bảo mật chuỗi cung ứng phần mềm như một phần không thể thiếu trong quy trình phát triển. Đừng để sự tiện lợi đánh đổi bằng sự an toàn của dự án và dữ liệu của bạn.",
+      "duration_hint": 15,
+      "start_frame": 1965,
+      "duration_frames": 691,
+      "image_url": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDA2Nzh8MHwxfHNlYXJjaHwxfHxjeWJlcnNlY3VyaXR5JTIwYmVzdCUyMHByYWN0aWNlcyUyMHNvZnR3YXJlJTIwc3VwcGx5JTIwY2hhaW4lMjBkZXZlbG9wZXIlMjB0b29sc3xlbnwwfDB8fHwxNzc5ODgzMjU3fDA&ixlib=rb-4.1.0&q=80&w=1080"
+    },
+    {
+      "type": "outro",
+      "cta": "Bạn đã kiểm tra tiện ích VSCode của mình chưa?",
+      "channel": "Huybrid Tech",
+      "tagline": "AI • Code • Innovation",
+      "voice_segment": "Vụ tấn công VSCode và GitHub cho thấy không có hệ thống nào là bất khả xâm phạm. Bảo mật là một cuộc chiến không ngừng nghỉ, và mỗi nhà phát triển đều là một mắt xích quan trọng. Hãy tự bảo vệ mình và cộng đồng bằng cách nâng cao cảnh giác. Bạn nghĩ sao về vụ việc này?",
+      "duration_hint": 5,
+      "start_frame": 2656,
+      "duration_frames": 371,
+      "image_url": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDA2Nzh8MHwxfHNlYXJjaHwxfHx0ZWNobm9sb2d5JTIwY29tbXVuaXR5fGVufDB8MHx8fDE3Nzk4ODMwNzl8MA&ixlib=rb-4.1.0&q=80&w=1080"
+    }
+  ],
+  "brand": {},
+  "industry": "",
+  "product": {},
+  "product_image_url": "",
+  "output": {
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "duration_frames": 3030
+  }
+}
