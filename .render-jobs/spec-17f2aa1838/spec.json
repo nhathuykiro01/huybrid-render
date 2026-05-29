@@ -1,0 +1,97 @@
+{
+  "composition_id": "short-insight-9x16",
+  "template_id": "short-insight-9x16",
+  "style_id": "short-insight-9x16",
+  "video_id": "spec-17f2aa1838",
+  "video_title": "Vệ tinh Sentinel-1D: Mắt thần radar của Châu Âu",
+  "voice_audio_path": "D:\\Huybrid\\data\\watchdog\\voice\\spec-17f2aa1838.wav",
+  "bgm_asset": "render-bgm.mp3",
+  "playback_speed": 1.25,
+  "category": "Science",
+  "scenes": [
+    {
+      "type": "title",
+      "title": "Mắt thần radar mới của Châu Âu",
+      "subtitle": "Sentinel-1D chính thức đi vào hoạt động!",
+      "tags": [
+        "vệ tinh",
+        "radar",
+        "ESA"
+      ],
+      "source_badge": "HUYBRID SCIENCE",
+      "image_keywords": [
+        "satellite launch",
+        "earth observation",
+        "radar technology",
+        "spacecraft orbit"
+      ],
+      "voice_segment": "Châu Âu vừa có thêm một 'mắt thần' trên quỹ đạo: vệ tinh Sentinel-1D đã chính thức đi vào hoạt động. Đây là một bước tiến quan trọng trong việc giám sát Trái Đất, mang lại cái nhìn chưa từng có về hành tinh của chúng ta.",
+      "duration_hint": 8,
+      "start_frame": 0,
+      "duration_frames": 309,
+      "image_url": "https://images.unsplash.com/photo-1708738793054-32b71e3fc822?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDA2Nzh8MHwxfHNlYXJjaHwxfHxzYXRlbGxpdGUlMjBsYXVuY2glMjBlYXJ0aCUyMG9ic2VydmF0aW9uJTIwcmFkYXIlMjB0ZWNobm9sb2d5JTIwc3BhY2VjcmFmdCUyMG9yYml0fGVufDB8MHx8fDE3ODAwNTcwODl8MA&ixlib=rb-4.1.0&q=80&w=1080"
+    },
+    {
+      "type": "insight",
+      "headline": "Sức mạnh từ công nghệ radar",
+      "points": [
+        "Cung cấp dữ liệu radar mọi lúc, mọi nơi, bất kể thời tiết.",
+        "Giám sát biến đổi khí hậu, băng tan, mực nước biển dâng.",
+        "Hỗ trợ ứng phó thiên tai như lũ lụt, động đất, sạt lở."
+      ],
+      "image_keywords": [
+        "radar earth imaging",
+        "climate change monitoring",
+        "disaster response satellite",
+        "polar ice caps",
+        "sea level rise"
+      ],
+      "source_note": "ESA (European Space Agency)",
+      "voice_segment": "Không giống như các vệ tinh quang học, Sentinel-1D sử dụng công nghệ radar tiên tiến, cho phép nó 'nhìn xuyên' qua mây và bóng tối. Điều này có nghĩa là chúng ta sẽ có dữ liệu liên tục về những thay đổi trên bề mặt Trái Đất, từ biến đổi khí hậu đến các thảm họa thiên nhiên.",
+      "duration_hint": 12,
+      "start_frame": 309,
+      "duration_frames": 386,
+      "image_url": "https://images.unsplash.com/photo-1470520518831-10005602ab67?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDA2Nzh8MHwxfHNlYXJjaHwxfHxkaXNhc3RlciUyMHJlc3BvbnNlJTIwc2F0ZWxsaXRlJTIwcG9sYXIlMjBpY2UlMjBjYXBzJTIwc2VhJTIwbGV2ZWwlMjByaXNlfGVufDB8MHx8fDE3ODAwNTcwOTB8MA&ixlib=rb-4.1.0&q=80&w=1080"
+    },
+    {
+      "type": "insight",
+      "headline": "Tương lai của giám sát Trái Đất",
+      "points": [
+        "Nâng cao độ chính xác dự báo thời tiết và khí hậu.",
+        "Hỗ trợ quản lý tài nguyên thiên nhiên hiệu quả hơn."
+      ],
+      "image_keywords": [
+        "future earth observation",
+        "environmental data",
+        "sustainable planet",
+        "satellite network"
+      ],
+      "source_note": "ESA",
+      "voice_segment": "Với Sentinel-1D, khả năng giám sát Trái Đất của chúng ta được nâng lên một tầm cao mới. Dữ liệu từ vệ tinh này sẽ là công cụ vô giá cho các nhà khoa học, chính phủ và cộng đồng trong việc đưa ra quyết định sáng suốt về môi trường và tương lai của hành tinh.",
+      "duration_hint": 10,
+      "start_frame": 695,
+      "duration_frames": 362,
+      "image_url": "https://images.unsplash.com/photo-1460186136353-977e9d6085a1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDA2Nzh8MHwxfHNlYXJjaHwxfHxmdXR1cmUlMjBlYXJ0aCUyMG9ic2VydmF0aW9uJTIwZW52aXJvbm1lbnRhbCUyMGRhdGElMjBzdXN0YWluYWJsZSUyMHBsYW5ldCUyMHNhdGVsbGl0ZSUyMG5ldHdvcmt8ZW58MHwwfHx8MTc4MDA1NzA5MXww&ixlib=rb-4.1.0&q=80&w=1080"
+    },
+    {
+      "type": "outro",
+      "cta": "Khám phá thêm về vũ trụ!",
+      "channel": "Huybrid",
+      "tagline": "HUYBRID SCIENCE",
+      "voice_segment": "Liệu công nghệ radar này có thể giúp chúng ta giải quyết những thách thức lớn nhất của Trái Đất? Hãy cùng chờ xem những khám phá mà Sentinel-1D sẽ mang lại!",
+      "duration_hint": 5,
+      "start_frame": 1057,
+      "duration_frames": 219,
+      "image_url": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDA2Nzh8MHwxfHNlYXJjaHwxfHx0ZWNobm9sb2d5JTIwY29tbXVuaXR5fGVufDB8MHx8fDE3ODAwNTU3MDl8MA&ixlib=rb-4.1.0&q=80&w=1080"
+    }
+  ],
+  "brand": {},
+  "product": {},
+  "product_image_url": "",
+  "output": {
+    "fps": 30,
+    "width": 1080,
+    "height": 1920,
+    "duration_frames": 1278
+  }
+}
