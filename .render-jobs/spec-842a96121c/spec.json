@@ -1,0 +1,92 @@
+{
+  "composition_id": "short-insight-9x16",
+  "template_id": "short-insight-9x16",
+  "style_id": "short-insight-9x16",
+  "video_id": "spec-842a96121c",
+  "video_title": "Blue Origin: Tham vọng hay ảo tưởng?",
+  "voice_audio_path": "D:\\Huybrid\\data\\watchdog\\voice\\spec-842a96121c.wav",
+  "bgm_asset": "render-bgm.mp3",
+  "playback_speed": 1.25,
+  "category": "Science",
+  "scenes": [
+    {
+      "type": "title",
+      "title": "Blue Origin: Tham vọng hay ảo tưởng?",
+      "subtitle": "New Glenn: Đối thủ mới của SpaceX?",
+      "tags": [
+        "Blue Origin",
+        "New Glenn",
+        "SpaceX"
+      ],
+      "source_badge": "HUYBRID SCIENCE",
+      "image_keywords": [
+        "rocket launch",
+        "space race",
+        "futuristic spaceport"
+      ],
+      "voice_segment": "Blue Origin, đế chế vũ trụ của Jeff Bezos, đang khiến cả thế giới phải ngước nhìn với những mục tiêu phóng tên lửa New Glenn đầy tham vọng. Liệu đây có phải là lời tuyên chiến chính thức với SpaceX của Elon Musk?",
+      "duration_hint": 6,
+      "start_frame": 0,
+      "duration_frames": 289
+    },
+    {
+      "type": "insight",
+      "headline": "Mục tiêu phóng đầy táo bạo",
+      "points": [
+        "Blue Origin đặt mục tiêu phóng New Glenn nhiều lần trong năm.",
+        "Tên lửa New Glenn cao 98 mét, có khả năng tái sử dụng tầng đẩy chính.",
+        "Sẽ cạnh tranh trực tiếp với Falcon Heavy và Starship của SpaceX."
+      ],
+      "image_keywords": [
+        "New Glenn rocket",
+        "rocket engine",
+        "space launch pad"
+      ],
+      "source_note": "Ars Technica, 2026",
+      "voice_segment": "Theo các báo cáo mới nhất, Blue Origin không chỉ muốn phóng New Glenn một vài lần, mà là với tần suất đáng kinh ngạc. Điều này đòi hỏi một quy trình sản xuất và vận hành cực kỳ hiệu quả, một thách thức không hề nhỏ.",
+      "duration_hint": 12,
+      "start_frame": 289,
+      "duration_frames": 293
+    },
+    {
+      "type": "insight",
+      "headline": "Thách thức và cơ hội",
+      "points": [
+        "Cần chứng minh độ tin cậy và khả năng tái sử dụng.",
+        "Cạnh tranh gay gắt với các đối thủ đã có kinh nghiệm.",
+        "Tiềm năng mở ra kỷ nguyên mới cho du hành vũ trụ."
+      ],
+      "image_keywords": [
+        "space exploration",
+        "future technology",
+        "earth from space"
+      ],
+      "source_note": "Phân tích chuyên gia",
+      "voice_segment": "Để đạt được những mục tiêu này, Blue Origin sẽ phải vượt qua nhiều rào cản kỹ thuật và tài chính. Tuy nhiên, nếu thành công, New Glenn có thể thay đổi hoàn toàn cục diện ngành công nghiệp vũ trụ, mở ra những cơ hội chưa từng có cho khám phá không gian.",
+      "duration_hint": 10,
+      "start_frame": 582,
+      "duration_frames": 344,
+      "image_url": "https://images.unsplash.com/photo-1727363490322-4854e6a2eaf4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDA2Nzh8MHwxfHNlYXJjaHwxfHxzcGFjZSUyMGV4cGxvcmF0aW9uJTIwZnV0dXJlJTIwdGVjaG5vbG9neSUyMGVhcnRoJTIwZnJvbSUyMHNwYWNlfGVufDB8MHx8fDE3ODAwNTcwMjh8MA&ixlib=rb-4.1.0&q=80&w=1080"
+    },
+    {
+      "type": "outro",
+      "cta": "Tương lai vũ trụ sẽ về tay ai?",
+      "channel": "Huybrid",
+      "tagline": "HUYBRID SCIENCE",
+      "voice_segment": "Blue Origin có thực sự đủ sức để biến tham vọng thành hiện thực, hay chỉ là một giấc mơ xa vời? Hãy cùng chờ xem những bước đi tiếp theo của gã khổng lồ này!",
+      "duration_hint": 4,
+      "start_frame": 926,
+      "duration_frames": 214,
+      "image_url": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDA2Nzh8MHwxfHNlYXJjaHwxfHx0ZWNobm9sb2d5JTIwY29tbXVuaXR5fGVufDB8MHx8fDE3ODAwNTU3MDl8MA&ixlib=rb-4.1.0&q=80&w=1080"
+    }
+  ],
+  "brand": {},
+  "product": {},
+  "product_image_url": "",
+  "output": {
+    "fps": 30,
+    "width": 1080,
+    "height": 1920,
+    "duration_frames": 1143
+  }
+}
