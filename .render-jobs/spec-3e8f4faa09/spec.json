@@ -1,0 +1,93 @@
+{
+  "composition_id": "short-insight-9x16",
+  "template_id": "short-insight-9x16",
+  "style_id": "short-insight-9x16",
+  "video_id": "spec-3e8f4faa09",
+  "video_title": "SpaceX: Tương Lai Của Internet Vừa Cất Cánh?",
+  "voice_audio_path": "D:\\Huybrid\\data\\watchdog\\voice\\spec-3e8f4faa09.wav",
+  "bgm_asset": "render-bgm.mp3",
+  "playback_speed": 1.25,
+  "category": "Science",
+  "scenes": [
+    {
+      "type": "title",
+      "title": "SpaceX: Internet Toàn Cầu?",
+      "subtitle": "Sứ mệnh Starlink thay đổi cuộc chơi",
+      "tags": [
+        "SpaceX",
+        "Starlink",
+        "Internet"
+      ],
+      "source_badge": "HUYBRID SCIENCE",
+      "image_keywords": [
+        "SpaceX rocket launch",
+        "Starlink satellites",
+        "Earth from space"
+      ],
+      "voice_segment": "Vào ngày 1 tháng 5, SpaceX đã làm nên lịch sử với một sứ mệnh Starlink từ Cape Canaveral. Đây không chỉ là một vụ phóng tên lửa thông thường, mà là một bước tiến khổng lồ hướng tới việc phủ sóng internet toàn cầu.",
+      "duration_hint": 6,
+      "start_frame": 0,
+      "duration_frames": 305
+    },
+    {
+      "type": "insight",
+      "headline": "Kỷ Nguyên Internet Mới",
+      "points": [
+        "SpaceX phóng vệ tinh Starlink bằng Falcon 9",
+        "Mục tiêu: Internet tốc độ cao cho mọi nơi",
+        "Hơn 4.000 vệ tinh đã được phóng lên quỹ đạo"
+      ],
+      "image_keywords": [
+        "Falcon 9 launch",
+        "Starlink constellation",
+        "global internet coverage"
+      ],
+      "source_note": "Spaceflight Now, 01/05/2026",
+      "voice_segment": "Sứ mệnh này sử dụng tên lửa Falcon 9 để đưa thêm hàng chục vệ tinh Starlink lên quỹ đạo thấp của Trái Đất. Mục tiêu của Starlink là cung cấp internet băng thông rộng, độ trễ thấp đến những vùng xa xôi nhất, nơi hạ tầng truyền thống khó tiếp cận. Liệu đây có phải là giải pháp cho khoảng cách số toàn cầu?",
+      "duration_hint": 12,
+      "start_frame": 305,
+      "duration_frames": 436,
+      "image_url": "https://images.unsplash.com/photo-1633169747451-24ebe52e39b0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDA2Nzh8MHwxfHNlYXJjaHwxfHxGYWxjb24lMjA5JTIwbGF1bmNoJTIwU3RhcmxpbmslMjBjb25zdGVsbGF0aW9uJTIwZ2xvYmFsJTIwaW50ZXJuZXQlMjBjb3ZlcmFnZXxlbnwwfDB8fHwxNzgwMDU1NzA3fDA&ixlib=rb-4.1.0&q=80&w=1080"
+    },
+    {
+      "type": "insight",
+      "headline": "Tự Động Hóa Không Gian",
+      "points": [
+        "Tăng cường tự động hóa trong triển khai vệ tinh",
+        "Giảm chi phí, tăng tần suất phóng",
+        "Mở ra tiềm năng mới cho khám phá vũ trụ"
+      ],
+      "image_keywords": [
+        "satellite deployment",
+        "automated space technology",
+        "space exploration future"
+      ],
+      "source_note": "SpaceX",
+      "voice_segment": "Việc liên tục phóng các chùm vệ tinh cho thấy sự tiến bộ vượt bậc trong tự động hóa và hiệu quả của SpaceX. Điều này không chỉ giúp mở rộng mạng lưới Starlink mà còn giảm đáng kể chi phí tiếp cận không gian, mở đường cho nhiều dự án khoa học và thương mại táo bạo hơn trong tương lai.",
+      "duration_hint": 10,
+      "start_frame": 741,
+      "duration_frames": 407,
+      "image_url": "https://images.unsplash.com/photo-1460186136353-977e9d6085a1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDA2Nzh8MHwxfHNlYXJjaHwxfHxzYXRlbGxpdGUlMjBkZXBsb3ltZW50JTIwYXV0b21hdGVkJTIwc3BhY2UlMjB0ZWNobm9sb2d5JTIwc3BhY2UlMjBleHBsb3JhdGlvbiUyMGZ1dHVyZXxlbnwwfDB8fHwxNzgwMDU1NzA4fDA&ixlib=rb-4.1.0&q=80&w=1080"
+    },
+    {
+      "type": "outro",
+      "cta": "Tương lai nào cho internet vệ tinh?",
+      "channel": "Huybrid",
+      "tagline": "HUYBRID SCIENCE",
+      "voice_segment": "Sứ mệnh Starlink của SpaceX đang định hình lại cách chúng ta nhìn nhận về internet và công nghệ không gian. Bạn nghĩ sao về tầm ảnh hưởng của nó đến cuộc sống hàng ngày của chúng ta?",
+      "duration_hint": 4,
+      "start_frame": 1148,
+      "duration_frames": 261,
+      "image_url": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDA2Nzh8MHwxfHNlYXJjaHwxfHx0ZWNobm9sb2d5JTIwY29tbXVuaXR5fGVufDB8MHx8fDE3ODAwNTU3MDl8MA&ixlib=rb-4.1.0&q=80&w=1080"
+    }
+  ],
+  "brand": {},
+  "product": {},
+  "product_image_url": "",
+  "output": {
+    "fps": 30,
+    "width": 1080,
+    "height": 1920,
+    "duration_frames": 1411
+  }
+}
